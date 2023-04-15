@@ -1,0 +1,119 @@
+#!/bin/bash
+
+set -euo pipefail
+
+# Pretty print command name
+COMMAND=${0//\// }
+COMMAND=${COMMAND/*bom.d/bom}
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+
+get_usage () {
+  cat <<EOF
+Create entities from templates
+
+usage:
+  $COMMAND                      # Display help
+  $COMMAND -h|--help            # Display help
+
+  # Information gathering on K8S cluster
+  $COMMAND artifact|rtf         # Create new artifact
+  $COMMAND element|elm          # Create new element
+  $COMMAND operator|op          # Create new operator
+  $COMMAND rfc                  # Create new rfc
+  $COMMAND sandbox|sbx|snd|sand # Create new sandbox
+EOF
+}
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+
+if [ $# -lt 1 ] || [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
+  get_usage
+  exit 1
+fi
+
+idget () {
+  prefix="$1"
+  re='^[0-9]{4}$'
+  id=
+
+  while [[ ! $id =~ $re ]] || [[ -d "${prefix}${id}" ]]; do
+    read -rp "Please input entity's id.
+(use 4 digit number or anything else to generate a random ID) " id
+    if ! [[ $id =~ $re ]] ; then
+      logg info "Unrecognized 4 digit input, generating a random ID:"
+      id=$(printf "%04d\n" $((RANDOM%9999+1)))
+    fi
+    if [[ -d "${prefix}${id}" ]]; then
+      logg e "id=${id}: already taken."
+    fi
+  done
+
+  logg y "id=${id}"
+  logg nl
+  export id
+}
+
+nameget () {
+  re='^[^/><|:&]+$'
+  name=
+
+  while [[ ! $name =~ $re ]]; do
+    read -rp "Please input entity's name. " name
+  done
+
+  logg y "name=${name}"
+  logg nl
+  export name
+}
+
+# Create a new artifact
+artifact () {
+  prefix="${BOMPATH}/ARTIFACTS/RTF-"
+  idget "${prefix}"
+  nameget
+
+  read -p "Create ${prefix}${id} with name \"${name}\"? [y|n] " -n1 -r
+  if [[ "$REPLY" =~ ^[Yy]$ ]]; then
+    mkdir "${prefix}${id}"
+    cd "${prefix}${id}"
+    echo "# RTF-${id}: \"${name}\"" "${prefix}${id}" > "RTF-${id}.md"
+    touch "${name}.name"
+  fi
+}
+
+# Create a new element
+element () {
+  return
+}
+
+# Create a new operator
+operator () {
+  return
+}
+
+# Create a new rfc
+rfc () {
+  return
+}
+
+# Create a new sandbox
+sandbox () {
+  return
+}
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+
+case "${1}" in
+  artifact|rtf)         artifact ;;
+  element|elm)          element ;;
+  operator|op)          operator ;;
+  rfc)                  rfc ;;
+  sandbox|sbx|sand|snd) sandbox ;;
+
+  *)
+    echo "Option ${1} not recognised." >&2
+    get_usage
+    exit 1
+    ;;
+esac
