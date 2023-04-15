@@ -1,0 +1,31 @@
+description: |
+  A small SCHEMATiCWiZARD live show at Modularsquare.
+type:
+  - showcase
+  - afterwork
+  - livestream
+  - physical
+  - meetup
+  - concert
+doors: 2023-04-13 18:30 UTC+2
+start: 2023-04-13 19:00 UTC+2
+end:   2023-04-13 21:00 UTC+2
+communication:
+  bandsintown: https://www.bandsintown.com/e/104307141-schematic-wizard-at-modularsquare
+  facebook: https://www.facebook.com/events/123470270627214
+  instagram: https://www.instagram.com/p/Cqmv3PDNCdb/
+  instagram1: https://www.instagram.com/p/Cqr0zI3NEDp/
+  instagram2: https://www.instagram.com/p/Cq-_Iy1uZN8/
+  instagram3: https://www.instagram.com/p/Cq_BPk6NliF/
+  lastfm: https://www.last.fm/fr/event/4713880+Ap%C3%A9ro+Modularsquare+-+Schematic+Wizard
+location:
+  name: Modularsquare
+  address: 47 Rue Sedaine, 75011 Paris, France
+  type: shop
+  capacity: ~40 people
+stream:
+  youtube: https://www.youtube.com/watch?v=0z7AAm5Yi20
+artifacts:
+  - RTF-0001
+operators:
+  - schematicwizard
