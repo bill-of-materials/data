@@ -1,0 +1,16 @@
+---
+artifacts:
+  RTF-0001: {}
+
+elements:
+  ELM-0001: {}
+  ELM-0002:
+    state: 2023-03-13.ELM-0004.snapshot.jpg
+  ELM-0003: {}
+  ELM-0004:
+    state: 2023-03-13.ELM-0004.snapshot.jpg
+  ELM-0005: {}
+
+operators:
+  OP-0001:
+    alias: Schematic Wizard
