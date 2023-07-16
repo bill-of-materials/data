@@ -77,14 +77,28 @@ artifact () {
   if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     mkdir "${prefix}${id}"
     cd "${prefix}${id}"
-    echo "# RTF-${id}: \"${name}\"" "${prefix}${id}" > "RTF-${id}.md"
+    cp ../.template.md "${prefix}${id}.md"
+    sed -i "s/%%id%%/${id}/g" "${prefix}${id}.md"
+    sed -i "s/%%name%%/${name}/g" "${prefix}${id}.md"
     touch "${name}.name"
   fi
 }
 
 # Create a new element
 element () {
-  return
+  prefix="${BOMPATH}/ELEMENTS/ELM-"
+  idget "${prefix}"
+  nameget
+
+  read -p "Create ${prefix}${id} with name \"${name}\"? [y|n] " -n1 -r
+  if [[ "$REPLY" =~ ^[Yy]$ ]]; then
+    mkdir "${prefix}${id}"
+    cd "${prefix}${id}"
+    cp ../.template.md "${prefix}${id}.md"
+    sed -i "s/%%id%%/${id}/g" "${prefix}${id}.md"
+    sed -i "s/%%name%%/${name}/g" "${prefix}${id}.md"
+    touch "${name}.name"
+  fi
 }
 
 # Create a new operator
