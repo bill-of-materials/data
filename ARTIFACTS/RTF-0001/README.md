@@ -10,8 +10,8 @@ other audio or visual artifacts.
 
 *Main:*
 
-- [ELM-0002](../../ELEMENTS/ELM-0002/ELM-0002.md): "The Black Case"
-- [ELM-0004](../../ELEMENTS/ELM-0004/ELM-0004.md): "The Yellow Case"
+- [ELM-0002](../../ELEMENTS/ELM-0002): "The Black Case"
+- [ELM-0004](../../ELEMENTS/ELM-0004): "The Yellow Case"
 
 *Additional:*
 

@@ -67,9 +67,9 @@ nameget () {
   export name
 }
 
-# Create a new artifact
-artifact () {
-  prefix="${BOMPATH}/ARTIFACTS/RTF-"
+# Create a new thing
+new () {
+  prefix="${BOMPATH}/${1}"
   idget "${prefix}"
   nameget
 
@@ -77,53 +77,26 @@ artifact () {
   if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     mkdir "${prefix}${id}"
     cd "${prefix}${id}"
-    cp ../.template.md "${prefix}${id}.md"
-    sed -i "s/%%id%%/${id}/g" "${prefix}${id}.md"
-    sed -i "s/%%name%%/${name}/g" "${prefix}${id}.md"
+    cp ../.template.md "${prefix}${id}/README.md"
+    sed -i "s/%%id%%/${id}/g" "${prefix}${id}/README.md"
+    sed -i "s/%%name%%/${name}/g" "${prefix}${id}/README.md"
     touch "${name}.name"
   fi
-}
-
-# Create a new element
-element () {
-  prefix="${BOMPATH}/ELEMENTS/ELM-"
-  idget "${prefix}"
-  nameget
-
-  read -p "Create ${prefix}${id} with name \"${name}\"? [y|n] " -n1 -r
-  if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-    mkdir "${prefix}${id}"
-    cd "${prefix}${id}"
-    cp ../.template.md "${prefix}${id}.md"
-    sed -i "s/%%id%%/${id}/g" "${prefix}${id}.md"
-    sed -i "s/%%name%%/${name}/g" "${prefix}${id}.md"
-    touch "${name}.name"
-  fi
-}
-
-# Create a new operator
-operator () {
-  return
-}
-
-# Create a new rfc
-rfc () {
-  return
 }
 
 # Create a new sandbox
-sandbox () {
+newsandbox () {
   return
 }
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
 
 case "${1}" in
-  artifact|rtf)         artifact ;;
-  element|elm)          element ;;
-  operator|op)          operator ;;
-  rfc)                  rfc ;;
-  sandbox|sbx|sand|snd) sandbox ;;
+  artifact|rtf)         new "ARTIFACTS/RTF-" ;;
+  element|elm)          new "ELEMENTS/ELM-" ;;
+  operator|op)          new "OPERATORS/OP-" ;;
+  rfc)                  new "RFC/RFC-" ;;
+  sandbox|sbx|sand|snd) newsandbox ;;
 
   *)
     echo "Option ${1} not recognised." >&2
