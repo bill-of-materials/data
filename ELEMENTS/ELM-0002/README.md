@@ -81,13 +81,13 @@ years.
 
 ### Case
 
-*Width:* 84HP
+**Width:** 84HP
 
-*Height:* 4x 3U (6U + 6U)
+**Height:** 4x 3U (6U + 6U)
 
-*PSU:* 2x Cincon-TTA, 100-240V, 2x 4.6A, with 2x IEC C13 <> FR cables
+**PSU:** 2x Cincon-TTA, 100-240V, 2x 4.6A, with 2x IEC C13 <> FR cables
 
-*Power Bus:* 2x [2HP Zeus
+**Power Bus:** 2x [2HP Zeus
 Access](https://www.modulargrid.net/e/tiptop-audio-zeus-access) + 2x [Zeus
 Studio Bus DC800](https://tiptopaudio.com/zeus-studio-bus/)
 
@@ -105,6 +105,7 @@ Current specifications:
 
 <h3>v3.0.1 (2023-07-20 -> ?)</h3>
 <p>
+
 **CHANGELOG:**
 
 - Remove 2HP Rnd v2
@@ -116,20 +117,49 @@ Current specifications:
 
 <details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary>
 <p>
+
 **CHANGELOG:**
 
-- Remove Music Thing Modular London Drive DIY -> move to ELM-0004
-- Remove Music Thing Modular Twin Drive DIY -> move to ELM-0004
-- Remove Erica Synths Pico Drums -> move to ELM-0004
-- Remove DivKid Mutes (1) DIY -> move to ELM-0004
-- Remove DivKid Mutes (2) DIY -> move to ELM-0004
+- Remove Music Thing Modular London Drive DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Music Thing Modular Twin Drive DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Erica Synths Pico Drums
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove DivKid Mutes (1) DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove DivKid Mutes (2) DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
 - Remove Music Thing Modular Turing Machine MkII DIY
 - Remove Music Thing Modular Pulses DIY
 - Add 1010music Bitbox Micro
-- Add Doepfer A-180-2
 - Add Erica Synths Pico DSP
 
 ![Modulargrid v3.0.0](2023-06-20.modulargrid.ELM-0002_v3.0.0.jpg)
+</p></details>
+
+<details><summary><h3>v2.5.0 (2023-01-07 -> 2023-06-20)</h3></summary>
+<p>
+
+**CHANGELOG:**
+
+- Add Music Thing Modular Twin Drive DIY
+- Add Music Thing Modular London Drive DIY
+
+![Modulargrid v2.5.0](2023-01-07.modulargrid.ELM-0002_v2.5.0.jpg)
+</p></details>
+
+<details><summary><h3>v2.4.0 (2023-12-10 -> 2023-01-07)</h3></summary>
+<p>
+
+**CHANGELOG:**
+
+- Remove Make Noise DPO
+- Remove Robaux SWT16+
+- Add Rossum Electro-Music Trident
+- Add Doepfer A-180-2
+- Add Intellijel µScale
+
 </p></details>
 
 ### Timeline
@@ -148,7 +178,8 @@ gantt
   case first life (pre-bom)  :done,      2015-11-11, 2017-01-07
   prototype                  :done,      2017-01-07, 2018-03-01
   v1.0.0                     :done,      2018-03-01, 2022-03-01
-  v2.0.0                     :done,      2022-03-01, 2023-06-20
+  v2.4.0                     :done,      2022-12-10, 2023-01-07
+  v2.5.0                     :done,      2023-01-07, 2023-06-20
   v3.0.0                     :done,      2023-06-20, 2023-07-20
   v3.0.1                     :active,    2023-07-20, 2023-12-31
 
@@ -213,8 +244,8 @@ gantt
   [Joranalogue] Filter 8                        :active,    2021-08-12, 2023-12-31
   [Happy Nerding] FX AID                        :active,    2021-08-12, 2023-12-31
   [Takaab] 2LPG (v2)                            :active,    2021-11-22, 2023-12-31
+  [Rossum Electro-Music] Trident                :active,    2022-11-26, 2023-12-31
   [Intellijel] µScale                           :active,    2022-12-10, 2023-12-31
   [Doepfer] A-185-2 (Precision Adder)           :active,    2022-12-10, 2023-12-31
-  [Rossum Electro-Music] Trident                :active,    2022-11-26, 2023-12-31
   [Xaoc] Kamieniec                              :active,    2023-07-20, 2023-12-31
 ```
