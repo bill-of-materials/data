@@ -10,16 +10,16 @@ other audio or visual artifacts.
 
 *Main:*
 
-- [ELM-0002](../../ELEMENTS/ELM-0002): "The Black Case"
-- [ELM-0004](../../ELEMENTS/ELM-0004): "The Yellow Case"
+- [ELM-0002](../../ELEMENTS/ELM-0002/README.md): "The Black Case"
+- [ELM-0004](../../ELEMENTS/ELM-0004/README.md): "The Yellow Case"
 
 *Additional:*
 
 The artefact has been used in association with other elements during sandboxes:
 
-- ELM-0001: digidrums
-- ELM-0003: hw polymidi synth
-- ELM-0005: the sauce
+- ELM-0001: "Digidrums"
+- ELM-0003: "Ethereal Pads"
+- ELM-0005: "The Sauce"
 
 This page also keeps track of Eurorack modules that were once connected to
 ELM-0002 or ELM-0004. Those modules are now locked up in B.O.M. storage
