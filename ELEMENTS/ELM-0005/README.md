@@ -1,13 +1,4 @@
-# RTF-6471: "[Unknown]"
-
-## Description
-
-Found picture from 1957.
-
-![RTF-6471](./1957-04-11.unknown.jpg)
-
-Currently gathering data about the source.
-Anachronism, but seems related to B.O.M. standards.
+# ELM-0005: "Boitanee"
 
 ## Elements
 

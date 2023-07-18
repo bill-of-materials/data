@@ -2,9 +2,56 @@
 
 ## Description
 
-A permanently evolving Eurorack system and module collection, producing sounds,
-control voltages and transmissions. Possible interactions with computers and
-other audio or visual artifacts.
+RTF-0001 is a permanently evolving
+[Eurorack](https://en.wikipedia.org/wiki/Eurorack) multi-case system and module
+collection, producing current, control voltages and sound/musical transmissions.
+Possible interactions with computers and/or other audio or visual based
+artifacts. RTF-0001 has been known for being the source of some very specific
+transmissions (███████) that had such a disturbing effect on the audience it led
+to the creation of a dedicated B.O.M. research group.
+
+Archives and timeline tend to prove the artifact has been carefully designed
+over the years by it's main operator to produce self-sufficient audio
+transmissions and maximize versatility, without locking it's potential operator
+to a specific audio transmission genre:
+
+- IDM
+- Braindance
+- Electronica
+- Ambient
+- Techno
+- Avant-Garde
+- Experimental
+- Drum & Bass
+- Drone
+- Noise
+- Breakbeat
+- Acid
+- House
+- Acid House
+- Trip-Hop
+- Bass Music
+- Digital Hardcore
+- Dolphincore
+- Elevator music
+
+For reference, this document will also list transmission genres that are giving
+inconsistent results with RTF-0001:
+
+- Pirate songs
+- Reggaeton
+- Corsican polyphony
+- Baroque Music
+- Crabcore
+
+**Important**
+
+A disturbing analysis produced by the ███████-dedicated B.O.M. research group
+stated that "RTF-0001 analysis, history and detailed specifications may consist
+by themselves as a ███████ source" (quoted), which created a controversy inside
+B.O.M. administration group and the public.
+
+(see ████████████ for more information)
 
 ## Elements
 
@@ -17,13 +64,54 @@ other audio or visual artifacts.
 
 The artefact has been used in association with other elements during sandboxes:
 
-- ELM-0001: "Digidrums"
-- ELM-0003: "Ethereal Pads"
-- ELM-0005: "The Sauce"
+- ELM-0001: "DigiDrums"
+- ELM-0003: "Ethereal Waves"
+- ELM-0005: "Spices"
+
+## History
+
+RTF-0001 first traces date back to 2015 with ELM-0002 discovery, but its
+association with B.O.M. experiments only started in 2017 after ELM-0002
+acquisition by SCHEMATiC WiZARD.
+
+The following years were a succession of buying/selling transactions between OP
+SW and other operators and corporations as such: [ [1] ](https://www.modularsquare.com/)
+[ [2] ](https://www.thonk.co.uk/) [ [3] ](https://www.signalsounds.com/).
+Many electronic components of ELM-0002 were bought second hand, some were DIY
+kits assembled by SW.
+
+RTF-0001 materials were initially self-contained / unitary with ELM-0002, but
+after some years of experiments and module expansion, ELM-0004 was added to the
+artifact, producing a versatile, complex yet transportable system.
+
+For more information about the history of each independent element, please check
+our archives:
+
+- [ELM-0002: "The Black Case"
+  (history)](../../ELEMENTS/ELM-0002/README.md#history)
+- [ELM-0004: "The Yellow Case"
+  (history)](../../ELEMENTS/ELM-0004/README.md#history)
+
+After the introduction of ELM-0004 in the system, transmissions evolved to
+something more complex and rich. Interactions between ELM-0002 and ELM-0004 are
+native and seamless since both elements share the same Eurorack and formats,
+though requiring longer patch cables. Each element/case found it's own function
+in the whole system, yet preserving some possibility of "standalone" usage.
+
+The ELM-0002 / ELM-0004 combo was self-sufficient, but used in combination with
+ELM-0001 for percussive transmissions (2017), ELM-0003 for polyphony (2022) and
+ELM-0005 for transmission body improvements (2022), RTF-0001 gained heavily in
+versatility and coherence.
+
+Human interaction with the artifact and protocol execution requires an
+authorization + basic synthesis knowledge, that can be acquired on multiple
+[places online](https://learningsynths.ableton.com/). Protocols can be found in
+various SW archives and will be centralized in this repository as soon as
+possible (see: sandboxes).
 
 This page also keeps track of Eurorack modules that were once connected to
 ELM-0002 or ELM-0004. Those modules are now locked up in B.O.M. storage
-facilities, or may be now sitting in non-bom operator's systems.
+facilities, or may be now sitting in non-B.O.M. operator's systems.
 
 ## Timeline
 
@@ -152,7 +240,3 @@ gantt
   [Befaco] STMix 1U Factory                     :active,        2023-07-20, 2023-12-31
   [Xaoc] Kamieniec                              :active,        2023-07-20, 2023-12-31
 ```
-
-## History
-
-`[REDACTED]`

@@ -2,7 +2,7 @@
 
 ## Description
 
-A DIY eurorack case made by Clochard.
+A DIY Eurorack case made by Clochard.
 
 Mainly focused on sampling, mixing and effects (reverbs, delays, glitchers...).
 
@@ -102,7 +102,7 @@ v1.3.0 (2023-03-11 -> 2023-06-20)
 
 - Remove Mutable Instruments Veils v2
 - Add Befaco Output v3 DIY
-- Add Befaco STmix (2) DIY
+- Add Befaco STMix (2) DIY
 
 ![Modulargrid v1.3.0](2023-03-11.modulargrid.ELM-0004_v1.3.0.jpg)
 

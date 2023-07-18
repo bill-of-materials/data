@@ -10,7 +10,7 @@ COMMAND=${COMMAND/*bom.d/bom}
 
 get_usage () {
   cat <<EOF
-Create entities from templates
+Create entity from templates
 
 usage:
   $COMMAND                      # Display help
@@ -67,7 +67,7 @@ nameget () {
   export name
 }
 
-# Create a new thing
+# Create a new entity
 new () {
   prefix="${BOMPATH}/${1}"
   idget "${prefix}"

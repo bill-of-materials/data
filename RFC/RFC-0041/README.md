@@ -29,9 +29,9 @@ schematics, operation procedures and transmissions it produces.
 ### operator (OP)
 
 Generally speaking, an operator is a human being. Some sandboxes may be opened
-to other kind of operators (animals, plants, `[REDACTED]`...)
+to other kind of operators (animals, plants, ██████████...)
 
-### sandbox
+### sandbox (SBX/SND/SAND)
 
 A sandbox is a confined place (as in time and space) where artifacts (and/or
 operators) are tested with different protocols. A sandbox can be open to the
@@ -57,11 +57,20 @@ entropy but the entropy may be reduced. In those situations we speak of
 artifact configured to have a predictable output. Most of the transmissions
 require a protocol to follow in order to be produced.
 
-### reflect
+### ███████
 
-Reflects are a special kind of transmissions. They are produced in a different
-space and where  `[REDACTED]` _(archives have been destroyed but it seems to
-have a relationship with artifact `RTF-0001`)_
+███████ are a special kind of transmissions. They are produced in a different
+space and where ████████████████████████████████████████████████████████.
+Similar to a mirror effect for the
+
+A dedicated B.O.M. research group is dedicated of the subject, including the
+analysis of ████████████, ████████ and ██████████████.
+
+███████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+_[archives have been destroyed but it seems to have a relationship with artifact
+[RTF-0001](../../ARTIFACTS/RTF-0001/README.md)]_
 
 ### request for comment (RFC)
 

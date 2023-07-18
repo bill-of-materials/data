@@ -4,7 +4,7 @@
 
 ### 2015-10-27
 
-A black box with unknown content is
+A picture of a black box with unknown content is
 [posted](https://www.facebook.com/938663699559839/photos/a.938703796222496/940987359327473/)
 on Arksine's social network page. The box seems to have been made for an
 operator called NEMOCAINE. Further research seems to indicate that the operator
@@ -15,8 +15,9 @@ is also known as MODGEIST.
 
 ### 2015-11-11
 
-Mysterious meeting in a french airport. A picture found on social networks seem
-to indicate this could be a transaction between Modgeist and Arksine.
+A mysterious meeting occurs in a french airport. A picture found on social
+networks seem to indicate this could be a transaction between Modgeist and
+Arksine.
 
 ![Transaction](2015-11-11.fb.arksine.transaction.jpg)
 ![Transaction Post](2015-11-11.fb.arksine.transactionpost.jpg)
@@ -50,7 +51,7 @@ networks a few hours later.
 ### 2017-02-14
 
 A month later, a first Eurorack module is plugged to the black Eurorack case:
-A [Pingable Enveloppe Generator](https://4mscompany.com/peg.php) (4ms)
+A [Pingable Envelope Generator](https://4mscompany.com/peg.php) (4ms)
 
 
 ### 2017-02-19
@@ -61,7 +62,7 @@ A [Pingable Enveloppe Generator](https://4mscompany.com/peg.php) (4ms)
 [Holmia](https://soundcloud.com/holmia)). Used in combination with a MS-20 mini
 to fill the gaps (missing VCA and VCF), the experience is described as "life
 changing" by SW, as he witnesses the 0-12V current flow triggering modules and
-propagating audio transmissions accross the hardware. The sound was described as
+propagating audio transmissions across the hardware. The sound was described as
 "raw, intense, beefy", with textures that SW has never heard live before.
 
 A testing sandbox was dropped as a livestream on Youtube, where the
@@ -78,7 +79,7 @@ The Black Case is a transportable Eurorack modular synth case with a decent
 amount of Eurorack modules plugged in. The module selection has evolved over the
 years.
 
-### Case details
+### Case
 
 *Width:* 84HP
 
@@ -90,19 +91,20 @@ years.
 Access](https://www.modulargrid.net/e/tiptop-audio-zeus-access) + 2x [Zeus
 Studio Bus DC800](https://tiptopaudio.com/zeus-studio-bus/)
 
-The case is made of wood, with classic flight case ruguous coating, a bit heavy
+The case is made of wood, with classic flight case rough coating, a bit heavy
 but resistant. Each 6U part can be used independently. More details about the
 case can be found on [Arksine's website](https://arksine.tumblr.com/).
 
 *Usage:* Multipurpose case, in SW's hand it has evolved to host a classic
 VCO/FILTER/VCA voicing + sequencing system.
 
-### Content changelog
+### Content
 
-Current specifications: [modulargrid](https://www.modulargrid.net/e/racks/view/2015824)
+Current specifications:
+[modulargrid](https://www.modulargrid.net/e/racks/view/2015824)
 
-<h3>v3.0.1 (2023-07-20 -> ?)</h3><p>
-
+<h3>v3.0.1 (2023-07-20 -> ?)</h3>
+<p>
 **CHANGELOG:**
 
 - Remove 2HP Rnd v2
@@ -110,11 +112,10 @@ Current specifications: [modulargrid](https://www.modulargrid.net/e/racks/view/2
 - Add Xaoc Kamieniec
 
 ![Modulargrid v3.0.1](2023-07-20.modulargrid.ELM-0002_v3.0.1.jpg)
-
 </p>
 
-<details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary><p>
-
+<details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary>
+<p>
 **CHANGELOG:**
 
 - Remove Music Thing Modular London Drive DIY -> move to ELM-0004
@@ -129,10 +130,9 @@ Current specifications: [modulargrid](https://www.modulargrid.net/e/racks/view/2
 - Add Erica Synths Pico DSP
 
 ![Modulargrid v3.0.0](2023-06-20.modulargrid.ELM-0002_v3.0.0.jpg)
-
 </p></details>
 
-### Content timeline
+### Timeline
 
 ``` mermaid
 gantt
