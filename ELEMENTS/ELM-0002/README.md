@@ -103,8 +103,32 @@ VCO/FILTER/VCA voicing + sequencing system.
 Current specifications:
 [modulargrid](https://www.modulargrid.net/e/racks/view/2015824)
 
-<h3>v3.0.1 (2023-07-20 -> ?)</h3>
-<p>
+<!-- THIS IS CURRENT VERSION ------------------------------------------------->
+<h3>v4.0.0 (2023-08-29 -> ?)</h3>
+
+**CHANGELOG:**
+
+This is the beginning of a new era thanks to the future i2c support in Nerdseq
+and the new programmable modulation matrix.
+
+- Remove Erica Synths Pico DSP
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Ornament & Crime
+- Remove Intellijel µScale
+- Remove Doepfer A-185-2 (Precision Adder)
+- Add Erica Synths Pico Drums
+- Add Tesseract Modular Sweet Sixteen Mk2 DIY
+- Upgrade Nerdseq to 1.28beta2
+- an empty slot is kept for new Nerseq Multi IO-Expander, previous expander is
+  used for the time being, without i2c support.
+
+![Modulargrid v4.0.0](2023-08-29.modulargrid.ELM-0002_v4.0.0.jpg)
+</p>
+<!-- END OF CURRENT VERSION -------------------------------------------------->
+
+<details><summary><h3>Previous versions</h3></summary><p>
+
+<details><summary><h3>v3.0.1 (2023-07-20 -> 2023-08-29)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -113,10 +137,9 @@ Current specifications:
 - Add Xaoc Kamieniec
 
 ![Modulargrid v3.0.1](2023-07-20.modulargrid.ELM-0002_v3.0.1.jpg)
-</p>
+</p></details>
 
-<details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary>
-<p>
+<details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -138,8 +161,7 @@ Current specifications:
 ![Modulargrid v3.0.0](2023-06-20.modulargrid.ELM-0002_v3.0.0.jpg)
 </p></details>
 
-<details><summary><h3>v2.5.0 (2023-01-07 -> 2023-06-20)</h3></summary>
-<p>
+<details><summary><h3>v2.5.0 (2023-01-07 -> 2023-06-20)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -149,8 +171,7 @@ Current specifications:
 ![Modulargrid v2.5.0](2023-01-07.modulargrid.ELM-0002_v2.5.0.jpg)
 </p></details>
 
-<details><summary><h3>v2.4.0 (2023-12-10 -> 2023-01-07)</h3></summary>
-<p>
+<details><summary><h3>v2.4.0 (2023-12-10 -> 2023-01-07)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -159,6 +180,8 @@ Current specifications:
 - Add Rossum Electro-Music Trident
 - Add Doepfer A-180-2
 - Add Intellijel µScale
+
+</p></details>
 
 </p></details>
 
@@ -181,7 +204,8 @@ gantt
   v2.4.0                     :done,      2022-12-10, 2023-01-07
   v2.5.0                     :done,      2023-01-07, 2023-06-20
   v3.0.0                     :done,      2023-06-20, 2023-07-20
-  v3.0.1                     :active,    2023-07-20, 2023-12-31
+  v3.0.1                     :done,      2023-07-20, 2023-08-29
+  v3.0.2                     :active,    2023-08-29, 2023-12-31
 
   section owner/operator (may contain mistakes)
   arksine            :done,      2015-10-01, 2015-11-11
@@ -207,6 +231,7 @@ gantt
   sw_live003.modularsquare     :milestone, 2023-04-13, 1d
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
   ricolidays01                 :milestone, 2023-07-24, 2023-07-31
+  sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
 
   section updates
   [Mutable Instruments] Braids                  :active,    2017-02-18, 2023-12-31
@@ -235,7 +260,6 @@ gantt
   [Expert Sleepers] Disting Mk4 (2)             :active,    2020-11-11, 2023-12-31
   [Doepfer] A-124 VCF5 (Wasp Filter)            :active,    2020-11-26, 2023-12-31
   [Doepfer] A-103 VCF6 (Low Pass Filter)        :active,    2020-11-26, 2023-12-31
-  [Erica Synths] Pico DSP                       :active,    2020-11-26, 2023-12-31
   [XOR Electronics] Nerdseq Expander            :active,    2021-02-03, 2023-12-31
   [Intellijel] Quadrax                          :active,    2021-07-24, 2023-12-31
   [Happy Nerding] FX AID XL                     :active,    2021-07-24, 2023-12-31
@@ -248,4 +272,6 @@ gantt
   [Intellijel] µScale                           :active,    2022-12-10, 2023-12-31
   [Doepfer] A-185-2 (Precision Adder)           :active,    2022-12-10, 2023-12-31
   [Xaoc] Kamieniec                              :active,    2023-07-20, 2023-12-31
+  [Erica Synths] Pico Input                     :active,    2023-08-29, 2023-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2023-12-31
 ```
