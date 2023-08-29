@@ -164,6 +164,7 @@ gantt
   sw_live003.modularsquare     :milestone, 2023-04-13, 1d
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
   ricolidays01                 :milestone, 2023-07-24, 2023-07-31
+  sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
 
   section updates
   [4ms] Pingable Enveloppe Generator            :done,          2017-02-14, 2018-11-04
@@ -239,4 +240,7 @@ gantt
   [WMD] MSCL                                    :active,        2023-06-19, 2023-12-31
   [Befaco] STMix 1U Factory                     :active,        2023-07-20, 2023-12-31
   [Xaoc] Kamieniec                              :active,        2023-07-20, 2023-12-31
+  [Mosaic] Line In 1U                           :active,        2023-08-18, 2023-12-31
+  [Erica Synths] Pico Input                     :active,        2023-08-29, 2023-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,        2023-08-29, 2023-12-31
 ```
