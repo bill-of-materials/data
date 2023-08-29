@@ -176,7 +176,7 @@ gantt
   [Doepfer] A-180-2 (multiple)                  :active,        2017-04-03, 2023-12-31
   [Xaoc] Belgrad                                :active,        2017-04-01, 2023-12-31
   [Intellijel] Dual ADSR                        : ,             2017-04-12, 2021-08-10
-  [Make Noise] DPO                              : ,             2017-05-18, 2022-11-26
+  [Make Noise] DPO                              :done ,         2017-05-18, 2023-08-01
   [Bastl] Ciao!                                 :done,          2017-05-27, 2021-08-10
   [Mutable Instruments] Clouds                  :active,        2017-05-27, 2023-12-31
   [WMD] Aperture                                : ,             2017-08-12, 2021-08-10
