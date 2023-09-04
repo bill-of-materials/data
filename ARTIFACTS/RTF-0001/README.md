@@ -94,17 +94,17 @@ our archives:
 
 After the introduction of ELM-0004 in the system, transmissions evolved to
 something more complex and rich. Interactions between ELM-0002 and ELM-0004 are
-native and seamless since both elements share the same Eurorack and formats,
+native and seamless, as both elements share the same Eurorack format,
 though requiring longer patch cables. Each element/case found it's own function
-in the whole system, yet preserving some possibility of "standalone" usage.
+in the whole system, yet preserving the possibility of a "standalone" usage.
 
 The ELM-0002 / ELM-0004 combo was self-sufficient, but used in combination with
 ELM-0001 for percussive transmissions (2017), ELM-0003 for polyphony (2022) and
 ELM-0005 for transmission body improvements (2022), RTF-0001 gained heavily in
 versatility and coherence.
 
-Human interaction with the artifact and protocol execution requires an
-authorization + basic synthesis knowledge, that can be acquired on multiple
+Human interactions with the artifact and protocol execution require an
+authorization + basic synthesis knowledge that can be acquired on multiple
 [places online](https://learningsynths.ableton.com/). Protocols can be found in
 various SW archives and will be centralized in this repository as soon as
 possible (see: sandboxes).
