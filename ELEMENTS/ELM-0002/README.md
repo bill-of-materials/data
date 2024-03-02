@@ -104,12 +104,50 @@ Current specifications:
 [modulargrid](https://www.modulargrid.net/e/racks/view/2015824)
 
 <!-- THIS IS CURRENT VERSION ------------------------------------------------->
-<h3>v4.0.0 (2023-08-29 -> ?)</h3>
+
+<h3>v4.0.0 (2024-03-30 -> ?)</h3><p>
 
 **CHANGELOG:**
 
-This is the beginning of a new era thanks to the future i2c support in Nerdseq
-and the new programmable modulation matrix.
+This is the beginning of a new era thanks to the implementation of i2c in
+Nerdseq and the new programmable mappings.
+
+Full i2c support. Introduction of new tactile control interfaces with two Gliss
+by Bela. Bringing back O_C and Precision added instead of Voltage Block for
+"control random" opportunities.
+
+Sadly, current operator bricked the outdated Sweet Sixteen's Teensy LC due to
+poor firmware choice and/or bad soldering. i2c with NerdSEQ expander didn't
+work. The sweet sixteen analog features still work but no USB/Midi/i2c
+communication is possible. Teensy LC has been removed and kept aside. A new
+Teensy LC has been ordered on a Chinese reseller's website for an unspeakable
+price.
+
+- Upgrade Nerdseq to V2.01A
+- Upgrade Ornament & Crime (x2) Hemisphere Suite to Phazerville Suite 1.7
+- Remove Erica Synths Pico Drums
+- Remove Takaab 2LPG
+- Remove Music Thing Modular Mikrophonie
+- Remove Malekko Voltage Block
+- Remove XOR Nerdseq IO Expander
+- Add Ornament & Crime
+- Add Doepfer A-185-2 (Precision Adder)
+- Add XOR Nerdseq Multi-IO Expander
+- Add Bela Gliss (x2)
+
+![Modulargrid v4.0.0](2024-03-30.modulargrid.ELM-0002_v4.0.0.jpg)
+</p>
+
+<!-- END OF CURRENT VERSION -------------------------------------------------->
+
+<details><summary><h3>Previous versions</h3></summary><p>
+
+<details><summary><h3>v4.0.0-alpha1 (2023-08-29 -> 2024-03-30)</h3></summary><p>
+
+**CHANGELOG:**
+
+Preparing a new era thanks to the future i2c support in Nerdseq and the new
+programmable mappings.
 
 - Remove Erica Synths Pico DSP
   *--> move to [ELM-0004](../ELM-0004/README.md)*
@@ -119,14 +157,13 @@ and the new programmable modulation matrix.
 - Add Erica Synths Pico Drums
 - Add Tesseract Modular Sweet Sixteen Mk2 DIY
 - Upgrade Nerdseq to 1.28beta2
-- an empty slot is kept for new Nerseq Multi IO-Expander, previous expander is
-  used for the time being, without i2c support.
 
-![Modulargrid v4.0.0](2023-08-29.modulargrid.ELM-0002_v4.0.0.jpg)
-</p>
-<!-- END OF CURRENT VERSION -------------------------------------------------->
+Getting ready for a new Nerseq Multi IO-Expander, previous expander is
+used for the time being, without i2c support.
 
-<details><summary><h3>Previous versions</h3></summary><p>
+![Modulargrid v4.0.0-alpha1](2023-08-29.modulargrid.ELM-0002_v4.0.0-alpha1.jpg)
+</p></details>
+
 
 <details><summary><h3>v3.0.1 (2023-07-20 -> 2023-08-29)</h3></summary><p>
 
@@ -138,6 +175,7 @@ and the new programmable modulation matrix.
 
 ![Modulargrid v3.0.1](2023-07-20.modulargrid.ELM-0002_v3.0.1.jpg)
 </p></details>
+
 
 <details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary><p>
 
@@ -161,6 +199,7 @@ and the new programmable modulation matrix.
 ![Modulargrid v3.0.0](2023-06-20.modulargrid.ELM-0002_v3.0.0.jpg)
 </p></details>
 
+
 <details><summary><h3>v2.5.0 (2023-01-07 -> 2023-06-20)</h3></summary><p>
 
 **CHANGELOG:**
@@ -170,6 +209,7 @@ and the new programmable modulation matrix.
 
 ![Modulargrid v2.5.0](2023-01-07.modulargrid.ELM-0002_v2.5.0.jpg)
 </p></details>
+
 
 <details><summary><h3>v2.4.0 (2023-12-10 -> 2023-01-07)</h3></summary><p>
 
@@ -182,6 +222,7 @@ and the new programmable modulation matrix.
 - Add Intellijel µScale
 
 </p></details>
+
 
 </p></details>
 
@@ -205,7 +246,8 @@ gantt
   v2.5.0                     :done,      2023-01-07, 2023-06-20
   v3.0.0                     :done,      2023-06-20, 2023-07-20
   v3.0.1                     :done,      2023-07-20, 2023-08-29
-  v3.0.2                     :active,    2023-08-29, 2023-12-31
+  v4.0.0-alpha1              :done,      2023-08-29, 2024-02-10
+  v4.0.0                     :active,    2024-02-10, 2024-12-31
 
   section owner/operator (may contain mistakes)
   arksine            :done,      2015-10-01, 2015-11-11
@@ -232,46 +274,52 @@ gantt
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
   ricolidays01                 :milestone, 2023-07-24, 2023-07-31
   sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
+  sw_live004.penicheantipode   :milestone, 2023-11-16, 1d
+  sw_live005.lamain            :milestone, 2024-02-09, 1d
 
   section updates
-  [Mutable Instruments] Braids                  :active,    2017-02-18, 2023-12-31
-  [Mutable Instruments] Veils (v1)              :active,    2017-04-03, 2023-12-31
-  [Mutable Instruments] Links                   :active,    2017-04-03, 2023-12-31
-  [Doepfer] A-180-2 (multiple)                  :active,    2017-04-03, 2023-12-31
-  [Xaoc] Belgrad                                :active,    2017-04-01, 2023-12-31
-  [Mutable Instruments] Clouds                  :active,    2017-05-27, 2023-12-31
-  [Zvex] Fuzz Factory                           :active,    2017-08-12, 2023-12-31
-  [Music Thing Modular] Mikrophonie (2017) DIY  :active,    2017-10-29, 2023-12-31
-  [Noise Engineering] Basimilus Iteritas Alter  :active,    2017-12-10, 2023-12-31
-  [ALM] Pamela's New Workout                    :active,    2017-12-16, 2023-12-31
-  Ornament & Crime                              :active,    2018-03-04, 2023-12-31
-  [Erica Synths] Pico Drums                     :active,    2018-04-13, 2023-12-31
-  [Malekko] Voltage Block                       :active,    2018-07-24, 2023-12-31
-  [Make Noise] Maths                            :active,    2019-02-05, 2023-12-31
-  [DivKid] Mutes (1) DIY                        :active,    2019-05-24, 2023-12-31
-  [DivKid] Mutes (2) DIY                        :active,    2019-05-24, 2023-12-31
-  [Fonitronik] Cascade DIY                      :active,    2019-05-24, 2023-12-31
-  [Mutable Instruments] Plaits                  :active,    2019-06-01, 2023-12-31
-  [Expert Sleepers] Disting Mk4 (1)             :active,    2019-08-15, 2023-12-31
-  [XOR Electronics] Nerdseq                     :active,    2020-11-11, 2023-12-31
-  [Robaux] SWT16+ DIY                           :active,    2020-11-11, 2023-12-31
-  [Expert Sleepers] ES-8                        :active,    2020-11-11, 2023-12-31
-  [2hp] Mix                                     :active,    2020-11-11, 2023-12-31
-  [Expert Sleepers] Disting Mk4 (2)             :active,    2020-11-11, 2023-12-31
-  [Doepfer] A-124 VCF5 (Wasp Filter)            :active,    2020-11-26, 2023-12-31
-  [Doepfer] A-103 VCF6 (Low Pass Filter)        :active,    2020-11-26, 2023-12-31
-  [XOR Electronics] Nerdseq Expander            :active,    2021-02-03, 2023-12-31
-  [Intellijel] Quadrax                          :active,    2021-07-24, 2023-12-31
-  [Happy Nerding] FX AID XL                     :active,    2021-07-24, 2023-12-31
-  [Befaco] Hexmix                               :active,    2021-07-24, 2023-12-31
-  [Befaco] Hexpander                            :active,    2021-07-24, 2023-12-31
-  [Joranalogue] Filter 8                        :active,    2021-08-12, 2023-12-31
-  [Happy Nerding] FX AID                        :active,    2021-08-12, 2023-12-31
-  [Takaab] 2LPG (v2)                            :active,    2021-11-22, 2023-12-31
-  [Rossum Electro-Music] Trident                :active,    2022-11-26, 2023-12-31
-  [Intellijel] µScale                           :active,    2022-12-10, 2023-12-31
-  [Doepfer] A-185-2 (Precision Adder)           :active,    2022-12-10, 2023-12-31
-  [Xaoc] Kamieniec                              :active,    2023-07-20, 2023-12-31
-  [Erica Synths] Pico Input                     :active,    2023-08-29, 2023-12-31
-  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2023-12-31
+  [Mutable Instruments] Braids                  :active,    2017-02-18, 2024-12-31
+  [Mutable Instruments] Veils (v1)              :active,    2017-04-03, 2024-12-31
+  [Mutable Instruments] Links                   :active,    2017-04-03, 2024-12-31
+  [Doepfer] A-180-2 (multiple)                  :active,    2017-04-03, 2024-12-31
+  [Xaoc] Belgrad                                :active,    2017-04-01, 2024-12-31
+  [Mutable Instruments] Clouds                  :active,    2017-05-27, 2024-12-31
+  [Zvex] Fuzz Factory                           :active,    2017-08-12, 2024-12-31
+  [Music Thing Modular] Mikrophonie (2017) DIY  :active,    2017-10-29, 2024-12-31
+  [Noise Engineering] Basimilus Iteritas Alter  :active,    2017-12-10, 2024-12-31
+  [ALM] Pamela's New Workout                    :active,    2017-12-16, 2024-12-31
+  Ornament & Crime                              :active,    2018-03-04, 2024-12-31
+  [Erica Synths] Pico Drums                     :active,    2018-04-13, 2024-12-31
+  [Malekko] Voltage Block                       :active,    2018-07-24, 2024-12-31
+  [Make Noise] Maths                            :active,    2019-02-05, 2024-12-31
+  [DivKid] Mutes (1) DIY                        :active,    2019-05-24, 2024-12-31
+  [DivKid] Mutes (2) DIY                        :active,    2019-05-24, 2024-12-31
+  [Fonitronik] Cascade DIY                      :active,    2019-05-24, 2024-12-31
+  [Mutable Instruments] Plaits                  :active,    2019-06-01, 2024-12-31
+  [Expert Sleepers] Disting Mk4 (1)             :active,    2019-08-15, 2024-12-31
+  [XOR Electronics] Nerdseq                     :active,    2020-11-11, 2024-12-31
+  [Robaux] SWT16+ DIY                           :active,    2020-11-11, 2024-12-31
+  [Expert Sleepers] ES-8                        :active,    2020-11-11, 2024-12-31
+  [2hp] Mix                                     :active,    2020-11-11, 2024-12-31
+  [Expert Sleepers] Disting Mk4 (2)             :active,    2020-11-11, 2024-12-31
+  [Doepfer] A-124 VCF5 (Wasp Filter)            :active,    2020-11-26, 2024-12-31
+  [Doepfer] A-103 VCF6 (Low Pass Filter)        :active,    2020-11-26, 2024-12-31
+  [XOR Electronics] Nerdseq IO Expander         :active,    2021-02-03, 2024-12-31
+  [Intellijel] Quadrax                          :active,    2021-07-24, 2024-12-31
+  [Happy Nerding] FX AID XL                     :active,    2021-07-24, 2024-12-31
+  [Befaco] Hexmix                               :active,    2021-07-24, 2024-12-31
+  [Befaco] Hexpander                            :active,    2021-07-24, 2024-12-31
+  [Joranalogue] Filter 8                        :active,    2021-08-12, 2024-12-31
+  [Happy Nerding] FX AID                        :active,    2021-08-12, 2024-12-31
+  [Takaab] 2LPG (v2)                            :active,    2021-11-22, 2024-12-31
+  [Rossum Electro-Music] Trident                :active,    2022-11-26, 2024-12-31
+  [XOR Electronics] Nerdseq Trig16 Expander     :active,    2022-12-07, 2024-12-31
+  [Intellijel] µScale                           :active,    2022-12-10, 2024-12-31
+  [Doepfer] A-185-2 (Precision Adder)           :active,    2022-12-10, 2024-12-31
+  [Xaoc] Kamieniec                              :active,    2023-07-20, 2024-12-31
+  [Erica Synths] Pico Input                     :active,    2023-08-29, 2024-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2024-12-31
+  [Bela] Gliss (1)                              :active,    2024-03-30, 2024-12-31
+  [Bela] Gliss (2)                              :active,    2024-03-30, 2024-12-31
+  [XOR Electronics] Nerdseq Multi-IO Expander   :active,    2024-03-30, 2024-12-31
 ```
