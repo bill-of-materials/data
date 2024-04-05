@@ -105,7 +105,26 @@ Current specifications:
 
 <!-- THIS IS CURRENT VERSION ------------------------------------------------->
 
-<h3>v4.0.0 (2024-03-30 -> ?)</h3><p>
+<h3>v4.0.1 (2024-04-05 -> ?)</h3><p>
+
+**CHANGELOG:**
+
+Teensy LC being almost impossible to acquire in 2024 due to shortage of it's
+core chip (see [pjrc](https://www.pjrc.com/store/teensylc.html)), at least for a
+price inferior to the one of a brand new module, op prefered to acquire another
+full Sweet Sixteen MK2, factory made this time.
+
+- Remove Tesseract Modular Sweet Sixteen Mk2 DIY
+- Add Tesseract Modular Sweet Sixteen Mk2
+
+![Modulargrid v4.0.1](2024-04-05.modulargrid.ELM-0002_v4.0.1.jpg)
+</p>
+
+<!-- END OF CURRENT VERSION -------------------------------------------------->
+
+<details><summary><h3>Previous versions</h3></summary><p>
+
+<details><summary><h3>v4.0.0 (2024-03-30 -> 2024-04-05)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -136,11 +155,7 @@ price.
 - Add Bela Gliss (x2)
 
 ![Modulargrid v4.0.0](2024-03-30.modulargrid.ELM-0002_v4.0.0.jpg)
-</p>
-
-<!-- END OF CURRENT VERSION -------------------------------------------------->
-
-<details><summary><h3>Previous versions</h3></summary><p>
+</p></details>
 
 <details><summary><h3>v4.0.0-alpha1 (2023-08-29 -> 2024-03-30)</h3></summary><p>
 
@@ -318,8 +333,8 @@ gantt
   [Doepfer] A-185-2 (Precision Adder)           :active,    2022-12-10, 2024-12-31
   [Xaoc] Kamieniec                              :active,    2023-07-20, 2024-12-31
   [Erica Synths] Pico Input                     :active,    2023-08-29, 2024-12-31
-  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2024-12-31
   [Bela] Gliss (1)                              :active,    2024-03-30, 2024-12-31
   [Bela] Gliss (2)                              :active,    2024-03-30, 2024-12-31
   [XOR Electronics] Nerdseq Multi-IO Expander   :active,    2024-03-30, 2024-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2         :active,    2024-04-05, 2024-12-31
 ```

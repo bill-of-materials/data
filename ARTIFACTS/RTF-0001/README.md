@@ -254,8 +254,10 @@ gantt
   [Xaoc] Kamieniec                              :active,    2023-07-20, 2024-12-31
   [Mosaic] Line In 1U                           :active,    2023-08-18, 2024-12-31
   [Erica Synths] Pico Input                     :active,    2023-08-29, 2024-12-31
-  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2024-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :active,    2023-08-29, 2024-03-30
+  [Tesseract Modular] Sweet Sixteen Mk2 DIY     :crit,      2024-03-30, 2024-12-31
   [Bela] Gliss (1)                              :active,    2024-02-10, 2024-12-31
   [Bela] Gliss (2)                              :active,    2024-02-10, 2024-12-31
   [XOR Electronics] Nerdseq Multi-IO Expander   :active,    2024-02-10, 2024-12-31
+  [Tesseract Modular] Sweet Sixteen Mk2         :active,    2024-04-05, 2024-12-31
 ```
