@@ -133,38 +133,42 @@ gantt
   v1.3.0     :done,      2023-03-11, 2023-06-20
   v1.4.0     :done,      2023-06-20, 2023-07-20
   v1.4.1     :done,      2023-07-20, 2023-08-29
-  v1.4.2     :active,    2023-08-29, 2023-12-31
+  v1.4.2     :active,    2023-08-29, 2024-12-31
 
   section owner/operator
   clochard          :done,      2021-12-01, 2022-05-28
-  schematicwizard   :active,    2022-05-28, 2023-12-31
+  schematicwizard   :active,    2022-05-28, 2024-12-31
 
   section sandboxes
-  ??_rehersal                  :milestone, 2022-06-20, 1d
+  ??_rehearsal                 :milestone, 2022-06-20, 1d
   nullpart03                   :milestone, 2022-08-14, 2022-08-28
   sw_live001.velvetmoon        :milestone, 2023-01-21, 1d
-  sw_rehersal__sw_live002      :milestone, 2023-03-31, 1d
+  sw_rehearsal__sw_live002     :milestone, 2023-03-31, 1d
   sw_live002.gambettaclub      :milestone, 2023-03-31, 1d
   sw_live003.modularsquare     :milestone, 2023-04-13, 1d
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
   ricolidays01                 :milestone, 2023-07-24, 2023-07-31
   sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
+  sw_live004.penicheantipode   :milestone, 2023-11-16, 1d
+  sw_live005.lamain            :milestone, 2024-02-09, 1d
+  sw_rehearsal__sw_live006     :milestone, 2024-05-11, 1d
+  sw_live006.baladessonores    :milestone, 2024-05-12, 1d
 
   section updates
-  [ALM] Pamela's New Workout                    :active,    2022-03-16, 2023-12-31
-  [Qu-Bit] Databender                           :active,    2022-03-16, 2023-12-31
-  [4Robots] 1uO_c (1U)                          :active,    2022-05-03, 2023-12-31
-  [Befaco] STmix (1) DIY                        :active,    2022-05-09, 2023-12-31
-  [Mutable Instruments] Beads                   :active,    2022-05-28, 2023-12-31
-  [Alright Devices] Chronoblob 2                :active,    2022-10-26, 2023-12-31
-  [Befaco] STmix (2) DIY                        :active,    2023-03-11, 2023-12-31
-  [Befaco] Output v3 DIY                        :active,    2023-03-11, 2023-12-31
-  [Music Thing Modular] Twin Drive DIY          :active,    2023-06-20, 2023-12-31
-  [Music Thing Modular] London Drive DIY        :active,    2023-06-20, 2023-12-31
-  [WMD] MSCL                                    :active,    2023-06-20, 2023-12-31
-  [DivKid] Mutes (1) DIY                        :active,    2023-06-20, 2023-12-31
-  [DivKid] Mutes (2) DIY                        :active,    2023-06-20, 2023-12-31
-  [Befaco] STMix 1U Factory                     :active,    2023-07-20, 2023-12-31
-  [Mosaic] Line In 1U                           :active,    2023-08-18, 2023-12-31
-  [Erica Synths] Pico DSP                       :active,    2023-08-29, 2023-12-31
+  [ALM] Pamela's New Workout                    :active,    2022-03-16, 2024-12-31
+  [Qu-Bit] Databender                           :active,    2022-03-16, 2024-12-31
+  [4Robots] 1uO_c (1U)                          :active,    2022-05-03, 2024-12-31
+  [Befaco] STmix (1) DIY                        :active,    2022-05-09, 2024-12-31
+  [Mutable Instruments] Beads                   :active,    2022-05-28, 2024-12-31
+  [Alright Devices] Chronoblob 2                :active,    2022-10-26, 2024-12-31
+  [Befaco] STmix (2) DIY                        :active,    2023-03-11, 2024-12-31
+  [Befaco] Output v3 DIY                        :active,    2023-03-11, 2024-12-31
+  [Music Thing Modular] Twin Drive DIY          :active,    2023-06-20, 2024-12-31
+  [Music Thing Modular] London Drive DIY        :active,    2023-06-20, 2024-12-31
+  [WMD] MSCL                                    :active,    2023-06-20, 2024-12-31
+  [DivKid] Mutes (1) DIY                        :active,    2023-06-20, 2024-12-31
+  [DivKid] Mutes (2) DIY                        :active,    2023-06-20, 2024-12-31
+  [Befaco] STMix 1U Factory                     :active,    2023-07-20, 2024-12-31
+  [Mosaic] Line In 1U                           :active,    2023-08-18, 2024-12-31
+  [Erica Synths] Pico DSP                       :active,    2023-08-29, 2024-12-31
 ```

@@ -252,7 +252,7 @@ gantt
   axisFormat    %Y-%m
 
   section state
-  research                   :active,    2016-01-01, 2023-12-31
+  research                   :active,    2016-01-01, 2024-12-31
   case build (pre-bom)       :done,      2015-10-01, 2015-10-27
   case first life (pre-bom)  :done,      2015-11-11, 2017-01-07
   prototype                  :done,      2017-01-07, 2018-03-01
@@ -264,13 +264,12 @@ gantt
   v4.0.0-alpha1              :done,      2023-08-29, 2024-02-10
   v4.0.0                     :active,    2024-02-10, 2024-12-31
 
-  section owner/operator (may contain mistakes)
+  section owner/operator
   arksine            :done,      2015-10-01, 2015-11-11
   nemocaine/modgeist :done,      2015-11-11, 2017-01-07
-  schematicwizard    :active,    2017-01-07, 2023-12-31
+  schematicwizard    :active,    2017-01-07, 2024-12-31
 
   section sandboxes
-  (non-bom) modgeist career    :milestone, 2016-01-01, 1y
   sw_teststream                :milestone, 2017-02-19, 1d
   sw_modular_session__002      :milestone, 2018-02-11, 1d
   sw_modular_session__003      :milestone, 2018-02-13, 1d
@@ -283,7 +282,7 @@ gantt
   nullpart02                   :milestone, 2021-08-14, 2021-08-28
   nullpart03                   :milestone, 2022-08-14, 2022-08-28
   sw_live001.velvetmoon        :milestone, 2023-01-21, 1d
-  sw_rehersal__sw_live002      :milestone, 2023-03-31, 1d
+  sw_rehearsal__sw_live002     :milestone, 2023-03-31, 1d
   sw_live002.gambettaclub      :milestone, 2023-03-31, 1d
   sw_live003.modularsquare     :milestone, 2023-04-13, 1d
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
@@ -291,6 +290,8 @@ gantt
   sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
   sw_live004.penicheantipode   :milestone, 2023-11-16, 1d
   sw_live005.lamain            :milestone, 2024-02-09, 1d
+  sw_rehearsal__sw_live006     :milestone, 2024-05-11, 1d
+  sw_live006.baladessonores    :milestone, 2024-05-12, 1d
 
   section updates
   [Mutable Instruments] Braids                  :active,    2017-02-18, 2024-12-31

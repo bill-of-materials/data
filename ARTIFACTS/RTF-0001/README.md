@@ -159,7 +159,7 @@ gantt
   nullpart02                   :milestone, 2021-08-14, 2021-08-28
   nullpart03                   :milestone, 2022-08-14, 2022-08-28
   sw_live001.velvetmoon        :milestone, 2023-01-21, 1d
-  sw_rehersal__sw_live002      :milestone, 2023-03-31, 1d
+  sw_rehearsal__sw_live002     :milestone, 2023-03-31, 1d
   sw_live002.gambettaclub      :milestone, 2023-03-31, 1d
   sw_live003.modularsquare     :milestone, 2023-04-13, 1d
   sw+mcfrsvn_research001       :milestone, 2023-07-07, 2d
@@ -167,6 +167,8 @@ gantt
   sw+th+briselame+csaoh_jam001 :milestone, 2023-08-10, 1d
   sw_live004.penicheantipode   :milestone, 2023-11-16, 1d
   sw_live005.lamain            :milestone, 2024-02-09, 1d
+  sw_rehearsal__sw_live006     :milestone, 2024-05-11, 1d
+  sw_live006.baladessonores    :milestone, 2024-05-12, 1d
 
   section updates
   [4ms] Pingable Enveloppe Generator            :done,      2017-02-14, 2018-11-04
