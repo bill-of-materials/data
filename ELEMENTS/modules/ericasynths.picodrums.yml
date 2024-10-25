@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: Pico Drums
+company: ericasynths
+description: |
+  Dual drum/sampler module with 64 samples, pitch, decay and volume control
+url: https://modulargrid.net/e/erica-synths-pico-drums
+tags:
+  - drum
+  - sampling
+color: black
+current:
+  12pos: 35
+  12neg: 4
+  5pos: 0
+dimensions:
+  width: 3
+  height: 3
+  depth: 35
+# todo
+buy_price: 150
+events:
+  - date: 2018-04-13
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 145

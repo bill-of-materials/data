@@ -1,0 +1,30 @@
+---
+kind: eurorack/module
+name: Metropolis
+company: intellijel
+description: |
+  RYK-185 Style Sequencer
+url: https://modulargrid.net/e/intellijel-metropolis-
+tags:
+  - sequencer
+  - clock modulator
+  - random
+  - clock generator
+color: white
+current:
+  12pos: 195
+  12neg: 8
+  5pos: 0
+dimensions:
+  width: 34
+  height: 3
+  depth: 45
+# todo
+buy_price: 350
+events:
+  - date: 2017-09-04
+    kind: buy
+    target:
+  - date: 2020-10-01
+    kind: sell
+    target:

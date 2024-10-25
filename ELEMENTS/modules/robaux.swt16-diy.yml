@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: SWT16+ DIY
+company: robaux
+description: |
+  A versatile step sequencer with 16 steps and multiple outputs, allowing for
+  complex rhythmic patterns and control in modular setups.
+url: https://modulargrid.net/e/robaux-swt16-
+tags:
+  - clock generator
+  - digital
+  - sequencer
+color: black
+current:
+  12pos: 60
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 20
+  height: 3
+  depth: 30
+# TODO
+buy_price: 249
+events:
+  - date: 2020-11-11
+    kind: buy
+    target:

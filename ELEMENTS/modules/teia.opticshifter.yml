@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: OpticShifter
+company: teia
+description: |
+  20 pole Phase Shifter
+url: https://modulargrid.net/e/teia-opticshifter
+tags:
+  - distortion
+  - drum
+  - phase shifter
+color: black
+current:
+  12pos: 110
+  12neg: 100
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 42
+events:
+  - date: 2024-10-29
+    kind: buy
+    source: retail (reverb)
+    destination: ELM-0002
+    price: 350
+    url: https://reverb.com/fr/item/85294148-opticshifter-20-pole-optical-phaser

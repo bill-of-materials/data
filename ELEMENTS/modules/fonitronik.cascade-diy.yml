@@ -1,0 +1,28 @@
+---
+kind: eurorack/module
+name: Cascade (DIY)
+company: fonitronik
+description: |
+  Triple DIY attenuverter/mixer/offset
+url: https://modulargrid.net/e/fonitronik-cascade
+tags:
+  - attenuator
+  - mixer
+  - polarizer
+  - utility
+  - distortion
+color: white
+current:
+  12pos: 28
+  12neg: 23
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 66
+# todo
+buy_price: 150
+events:
+  - date: 2019-05-24
+    kind: buy
+    target:

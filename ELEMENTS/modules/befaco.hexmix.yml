@@ -1,0 +1,29 @@
+---
+kind: eurorack/module
+name: Hexmix
+company: befaco
+description: |
+  6-channel performance mixer with EQs mutes and Pan
+url: https://modulargrid.net/e/befaco-hexmix
+tags:
+  - equalizer
+  - mixer
+  - panning
+  - utility
+  - dual/stereo
+  - external
+color: black
+current:
+  12pos: 106
+  12neg: 88
+  5pos: 0
+dimensions:
+  width: 28
+  height: 3
+  depth: 27
+# todo
+buy_price: 300
+events:
+  - date: 2021-07-24
+    kind: buy
+    target:
