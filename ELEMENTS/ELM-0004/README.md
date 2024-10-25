@@ -28,7 +28,23 @@ TBD
 Current specifications: [modulargrid](https://www.modulargrid.net/e/racks/view/2015824)
 
 <!-- THIS IS CURRENT VERSION ------------------------------------------------->
-<h3>v1.4.2 (2023-08-29 -> ?)</h3><p>
+<h3>v1.4.3 (2024-07-15 -> ?)</h3><p>
+
+**CHANGELOG:**
+
+Receive Radio.
+
+- Remove DivKid Mutes (2)
+- Remove Music Thing Modular London Drive
+- Add XAudioSystems VCRadio
+
+![Modulargrid v1.4.3](2024-07-15.modulargrid.ELM-0004_v1.4.3.jpg)
+</p>
+<!-- END OF CURRENT VERSION -------------------------------------------------->
+
+<details><summary><h3>Previous versions</h3></summary><p>
+
+<details><summary><h3>v1.4.2 (2023-08-29 -> 2024-07-15)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -54,10 +70,7 @@ on the FX Aid and on the Electro Harmonix Platform (master compression)
 - Add Erica Synths Pico DSP
 
 ![Modulargrid v1.4.2](2023-08-29.modulargrid.ELM-0004_v1.4.2.jpg)
-</p>
-<!-- END OF CURRENT VERSION -------------------------------------------------->
-
-<details><summary><h3>Previous versions</h3></summary><p>
+</p></details>
 
 <details><summary><h3>v1.4.1 (2023-07-20 -> 2023-08-29)</h3></summary><p>
 
@@ -133,11 +146,12 @@ gantt
   v1.3.0     :done,      2023-03-11, 2023-06-20
   v1.4.0     :done,      2023-06-20, 2023-07-20
   v1.4.1     :done,      2023-07-20, 2023-08-29
-  v1.4.2     :active,    2023-08-29, 2024-12-31
+  v1.4.2     :done,      2023-08-29, 2024-07-15
+  v1.4.3     :active,    2024-07-15, 2025-12-31
 
   section owner/operator
   clochard          :done,      2021-12-01, 2022-05-28
-  schematicwizard   :active,    2022-05-28, 2024-12-31
+  schematicwizard   :active,    2022-05-28, 2025-12-31
 
   section sandboxes
   ??_rehearsal                 :milestone, 2022-06-20, 1d
@@ -153,22 +167,23 @@ gantt
   sw_live005.lamain            :milestone, 2024-02-09, 1d
   sw_rehearsal__sw_live006     :milestone, 2024-05-11, 1d
   sw_live006.baladessonores    :milestone, 2024-05-12, 1d
+  nullpart04                   :milestone, 2024-08-05, 2024-08-18
 
   section updates
-  [ALM] Pamela's New Workout                    :active,    2022-03-16, 2024-12-31
-  [Qu-Bit] Databender                           :active,    2022-03-16, 2024-12-31
-  [4Robots] 1uO_c (1U)                          :active,    2022-05-03, 2024-12-31
-  [Befaco] STmix (1) DIY                        :active,    2022-05-09, 2024-12-31
-  [Mutable Instruments] Beads                   :active,    2022-05-28, 2024-12-31
-  [Alright Devices] Chronoblob 2                :active,    2022-10-26, 2024-12-31
-  [Befaco] STmix (2) DIY                        :active,    2023-03-11, 2024-12-31
-  [Befaco] Output v3 DIY                        :active,    2023-03-11, 2024-12-31
-  [Music Thing Modular] Twin Drive DIY          :active,    2023-06-20, 2024-12-31
-  [Music Thing Modular] London Drive DIY        :active,    2023-06-20, 2024-12-31
-  [WMD] MSCL                                    :active,    2023-06-20, 2024-12-31
-  [DivKid] Mutes (1) DIY                        :active,    2023-06-20, 2024-12-31
-  [DivKid] Mutes (2) DIY                        :active,    2023-06-20, 2024-12-31
-  [Befaco] STMix 1U Factory                     :active,    2023-07-20, 2024-12-31
-  [Mosaic] Line In 1U                           :active,    2023-08-18, 2024-12-31
-  [Erica Synths] Pico DSP                       :active,    2023-08-29, 2024-12-31
+  [ALM] Pamela's New Workout                    :active,    2022-03-16, 2025-12-31
+  [Qu-Bit] Databender                           :active,    2022-03-16, 2025-12-31
+  [4Robots] 1uO_c (1U)                          :active,    2022-05-03, 2025-12-31
+  [Befaco] STmix (1) DIY                        :active,    2022-05-09, 2025-12-31
+  [Mutable Instruments] Beads                   :active,    2022-05-28, 2025-12-31
+  [Alright Devices] Chronoblob 2                :active,    2022-10-26, 2025-12-31
+  [Befaco] STmix (2) DIY                        :active,    2023-03-11, 2025-12-31
+  [Befaco] Output v3 DIY                        :active,    2023-03-11, 2025-12-31
+  [Music Thing Modular] Twin Drive DIY          :active,    2023-06-20, 2025-12-31
+  [Music Thing Modular] London Drive DIY        :active,    2023-06-20, 2025-12-31
+  [WMD] MSCL                                    :active,    2023-06-20, 2025-12-31
+  [DivKid] Mutes (1) DIY                        :active,    2023-06-20, 2025-12-31
+  [Befaco] STMix 1U Factory                     :active,    2023-07-20, 2025-12-31
+  [Mosaic] Line In 1U                           :active,    2023-08-18, 2025-12-31
+  [Erica Synths] Pico DSP                       :active,    2023-08-29, 2025-12-31
+  [XAudioSystems] VCRadio                       :active,    2024-07-15, 2025-12-31
 ```
