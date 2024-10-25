@@ -1,0 +1,39 @@
+---
+kind: eurorack/module
+name: Plaits
+company: mutableinstruments
+description: |
+  A macro-oscillator module that offers a range of synthesis models and full
+  voice including filter, vca and envelope
+url: https://modulargrid.net/e/mutable-instruments-plaits
+tags:
+  - oscillator
+  - digital
+  - drum
+  - noise
+  - synth voice
+color: white
+current:
+  12pos: 50
+  12neg: 5
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 25
+events:
+  - date: 2019-06-01
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 229
+
+  - date: 2022-06-03
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
+
+  - date: 2022-11-06
+    kind: move
+    source: ELM-0004
+    destination: ELM-0002

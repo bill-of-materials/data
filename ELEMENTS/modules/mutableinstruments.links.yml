@@ -1,0 +1,25 @@
+---
+kind: eurorack/module
+name: Links
+company: mutableinstruments
+description: |
+  A utility module that provides multiple signal distribution options, allowing
+  you to easily split, mix, and route audio and CV signals.
+url: https://modulargrid.net/e/mutable-instruments-links
+tags:
+  - mixer
+  - multiple
+color: white
+current:
+  12pos: 15
+  12neg: 15
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 20
+events:
+  - date: 2017-04-03
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002

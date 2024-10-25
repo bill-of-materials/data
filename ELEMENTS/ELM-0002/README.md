@@ -244,7 +244,7 @@ used for the time being, without i2c support.
 </p></details>
 
 
-<details><summary><h3>v2.4.0 (2023-12-10 -> 2023-01-07)</h3></summary><p>
+<details><summary><h3>v2.4.0 (2022-12-10 -> 2023-01-07)</h3></summary><p>
 
 **CHANGELOG:**
 
@@ -274,7 +274,23 @@ gantt
   case build (pre-bom)       :done,      2015-10-01, 2015-10-27
   case first life (pre-bom)  :done,      2015-11-11, 2017-01-07
   prototype                  :done,      2017-01-07, 2018-03-01
-  v1.0.0                     :done,      2018-03-01, 2022-03-01
+  v1.0.0                     :done,      2018-03-01, 2020-02-16
+  v1.7.0                     :done,      2020-02-16, 2020-09-25
+  v1.7.5                     :done,      2020-09-25, 2020-12-20
+  v1.8.0                     :done,      2020-12-20, 2021-02-01
+  v1.8.1                     :done,      2021-02-01, 2021-07-24
+  v1.9.0                     :done,      2021-07-24, 2021-08-13
+  v1.9.5                     :done,      2021-08-13, 2021-12-18
+  v1.9.6                     :done,      2021-12-18, 2021-12-23
+  v1.9.7                     :done,      2021-12-23, 2022-04-01
+  v1.9.8                     :done,      2022-04-01, 2022-04-03
+  v1.9.9                     :done,      2022-04-03, 2022-04-07
+  v2.0.0-alpha1              :done,      2022-04-07, 2022-06-03
+  v2.0.0-pre                 :done,      2022-06-03, 2022-06-26
+  v2.0.0                     :done,      2022-06-26, 2022-08-05
+  v2.0.1                     :done,      2022-08-05, 2022-11-07
+  v2.3.0                     :done,      2022-11-07, 2022-11-20
+  v2.3.1                     :done,      2022-11-20, 2022-12-10
   v2.4.0                     :done,      2022-12-10, 2023-01-07
   v2.5.0                     :done,      2023-01-07, 2023-06-20
   v3.0.0                     :done,      2023-06-20, 2023-07-20
@@ -301,6 +317,7 @@ gantt
   nullpart01                   :milestone, 2020-08-14, 2020-08-28
   nullpart01.garage            :milestone, 2021-02-06, 2021-02-07
   nullpart02                   :milestone, 2021-08-14, 2021-08-28
+  sw+th_newyearseve001         :milestone, 2021-12-31, 1d
   nullpart03                   :milestone, 2022-08-14, 2022-08-28
   sw_live001.velvetmoon        :milestone, 2023-01-21, 1d
   sw_rehearsal__sw_live002     :milestone, 2023-03-31, 1d

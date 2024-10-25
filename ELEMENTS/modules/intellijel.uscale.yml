@@ -1,0 +1,29 @@
+---
+kind: eurorack/module
+name: µScale II
+company: intellijel
+description: |
+  Intelligent quantizer and interval generator
+url: https://modulargrid.net/e/intellijel-%CE%BCscale-v2
+tags:
+  - quantizer
+color: white
+current:
+  12pos: 60
+  12neg: 7
+  5pos: 0
+dimensions:
+  width: 6
+  height: 3
+  depth: 24
+events:
+  - date: 2022-11-19
+    kind: buy
+    source: operator (Neurotypique)
+    destination: ELM-0002
+    price: 90
+
+  - date: 2023-08-29
+    kind: move
+    source: ELM-0002
+    destination: storage

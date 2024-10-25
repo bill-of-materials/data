@@ -1,0 +1,37 @@
+---
+kind: eurorack/module
+name: Pingable Envelope Generator
+company: 4ms
+description: |
+  A versatile envelope generator designed for triggering and shaping audio and
+  control voltages with precise timing and control over attack, decay, and
+  sustain parameters.
+url: https://modulargrid.net/e/4ms-company-pingable-envelope-generator
+tags:
+  - clock generator
+  - clock modulator
+  - dual/stereo
+  - envelope generator
+  - function generator
+  - lfo
+color: white
+current:
+  12pos: 105
+  12neg: 35
+  5pos: 0
+dimensions:
+  width: 20
+  height: 3
+  depth: 26
+events:
+- date: 2017-02-14
+  kind: buy
+  source: operator (Hadj - Andrew Hadjiantoni (UK))
+  destination: ELM-0002
+  price: 270
+
+- date: 2018-11-04
+  kind: sell
+  source: ELM-0002
+  destination: operator (maleficat)
+  price: 220

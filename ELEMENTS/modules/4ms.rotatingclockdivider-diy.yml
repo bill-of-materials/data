@@ -1,0 +1,45 @@
+---
+kind: eurorack/module
+name: Rotating Clock Divider
+company: 4ms
+description: |
+  A clock divider module that offers a unique rotating output, allowing for
+  complex rhythmic patterns and variations in timing across multiple outputs.
+url:
+tags:
+  - clock modulator
+  - frequency divider
+color: white
+current:
+  12pos: 33
+  12neg: 4
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 35
+events:
+  - date: 2017-12-05
+    kind: buy
+    source: kit (thonk)
+    destination: storage
+    price: 110
+
+  - date: 2017-12-16
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 2d
+    build_result: failure
+    build_notes: |
+      Operator failed to solder a resistor array on the right side of the pcb
+      and had to unsolder a the component, breaking it and damaging the pcb.
+      After buying a new resistor array and trying soldering it properly,
+      another mistake was made. The module ended up partially working. There is
+      a remaining issue with the output voltage levels, making it unusable.
+      Output levels are not sufficient for a standard trigger/gate signal and
+      most envelope generators or samplers react poorly to it
+
+  - date: 2017-12-16
+    kind: failure
+    failure_notes: |
+      See build

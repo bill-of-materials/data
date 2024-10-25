@@ -1,0 +1,62 @@
+---
+kind: eurorack/module
+name: A-180-2
+company: doepfer
+description: |
+  Passive multiple
+url: https://modulargrid.net/e/doepfer-a-180-2-multiples
+tags:
+  - multiple
+  - utility
+  - dual/stereo
+color: white
+current:
+  12pos: 0
+  12neg: 0
+  5pos: 0
+  power: passive
+dimensions:
+  width: 2
+  height: 3
+  depth: 18
+events:
+  - date: 2017-04-03
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002
+    price: 35
+
+  - date: 2021-07-24
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-12-23
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-04-01
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-11-06
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2023-06-20
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2023-07-20
+    kind: move
+    source: ELM-0002
+    destination: storage

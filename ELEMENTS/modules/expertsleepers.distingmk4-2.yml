@@ -1,0 +1,31 @@
+---
+kind: eurorack/module
+name: Disting Mk4
+company: expertsleepers
+description: |
+  Many-in-1 multifunction module
+url: https://modulargrid.net/e/expert-sleepers-disting-mk4
+tags:
+  - delay
+  - effect
+  - lfo
+  - oscillator
+  - quantizer
+  - sampling
+  - utility
+  - waveshaper
+color: black
+current:
+  12pos: 51
+  12neg: 19
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 42
+events:
+  - date: 2020-11-11
+    kind: buy
+    source: retail (signalsound)
+    destination: ELM-0002
+    price: 168

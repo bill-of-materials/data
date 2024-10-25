@@ -1,0 +1,45 @@
+---
+kind: eurorack/module
+name: Ornament & Crime
+company: ornamentandcrime
+description: |
+  A multifunctional module that serves as a quantizer, sequencer, and much more,
+  known for its powerful capabilities and versatility in various musical
+  applications.
+url: https://modulargrid.net/e/oscillosaurus-ornament-crime-pcb-panel
+tags:
+  - cv modulation
+  - digital
+  - function generator
+  - quantizer
+  - sequencer
+color: black
+current:
+  12pos: 85
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 25
+events:
+  - date: 2018-03-04
+    kind: buy
+    source: operator (Matthias Puech (FR))
+    destination: ELM-0002
+    price: 180
+
+  - date: 2023-08-29
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2024-03-30
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2024-10-29
+    kind: move
+    source: ELM-0002
+    destination: storage

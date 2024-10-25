@@ -1,0 +1,32 @@
+---
+kind: eurorack/module
+name: Elements
+company: mutableinstruments
+description: |
+  A physical modal synthesizer that simulates acoustic sounds, offering an
+  expressive and dynamic approach to sound synthesis.
+url: https://modulargrid.net/e/mutable-instruments-elements
+tags:
+  - digital
+  - synth voice
+color: white
+current:
+  12pos: 130
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 34
+  height: 3
+  depth: 25
+events:
+  - date: 2018-03-15
+    kind: buy
+    source: operator (Giulio Giadrossi (Trieste, IT))
+    destination: ELM-0002
+    price: 350
+
+  - date: 2020-11-11
+    kind: sell
+    source: ELM-0002
+    destination: operator (Hugo Le Pottier (FR))
+    price: 350

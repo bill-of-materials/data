@@ -1,0 +1,48 @@
+---
+kind: eurorack/module
+name: Switched Multiple
+company: intellijel
+description: |
+  A chainable, passive switched multiplier
+url: https://modulargrid.net/e/intellijel-switched-mult-1u
+tags:
+  - mixer
+  - multiple
+  - switch
+  - utility
+color: white
+current:
+  12pos: 0
+  12neg: 0
+  5pos: 0
+  power: passive
+dimensions:
+  width: 14
+  height: 1
+  depth: 18
+events:
+  - date: 2022-04-25
+    kind: buy
+    source: retail (musicstore)
+    destination: transit
+    price: 39
+
+  - date: 2022-04-30
+    kind: move
+    source: transit
+    destination: ELM-0004
+
+  - date: 2023-03-11
+    kind: move
+    source: ELM-0004
+    destination: storage
+
+  - date: 2023-06-20
+    kind: move
+    source: storage
+    destination: ELM-0004
+
+  - date: 2023-07-20
+    kind: move
+    source: ELM-0004
+    destination: storage

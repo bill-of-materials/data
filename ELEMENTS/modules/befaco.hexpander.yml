@@ -1,0 +1,45 @@
+---
+kind: eurorack/module
+name: Hexpander
+company: befaco
+description: |
+  Hexmix expander with 3 aux sends, PFL, individual outs per channel and master
+  balanced out
+url: https://modulargrid.net/e/befaco-hexpander
+tags:
+  - expander
+  - external
+  - mixer
+  - utility
+  - dual/stereo
+color: black
+current:
+  12pos: 137
+  12neg: 64
+  5pos: 0
+  power: daisy
+dimensions:
+  width: 28
+  height: 3
+  depth: 27
+events:
+  - date: 2021-07-24
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002
+    price: 349
+
+  - date: 2021-12-23
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-10-28
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004

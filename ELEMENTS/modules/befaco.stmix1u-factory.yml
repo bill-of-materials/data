@@ -1,0 +1,26 @@
+---
+kind: eurorack/module
+name: STmix
+company: befaco
+description: |
+  Four channel stereo mixer
+url: https://modulargrid.net/e/befaco-stmix-1u
+tags:
+  - mixer
+  - dual/stereo
+  - utility
+color: black
+current:
+  12pos: 30
+  12neg: 30
+  5pos: 0
+dimensions:
+  width: 28
+  height: 1
+  depth: 20
+events:
+  - date: 2023-07-20
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0004
+    price: 98

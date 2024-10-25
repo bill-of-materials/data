@@ -1,0 +1,36 @@
+---
+kind: eurorack/module
+name: Gliss
+company: bela
+description: |
+  Intuitive Modular Synth Touch Control
+url: https://modulargrid.net/e/bela-gliss
+tags:
+  - controller
+  - cv modulation
+  - envelope generator
+  - function generator
+  - lfo
+  - oscillator
+  - sequencer
+  - waveshaper
+color: black
+current:
+  12pos: 150
+  12neg: 30
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 26
+events:
+  - date: 2024-02-10
+    kind: buy
+    source: retail (thomann)
+    destination: storage
+    price: 149
+
+  - date: 2024-03-30
+    kind: move
+    source: storage
+    destination: ELM-0002

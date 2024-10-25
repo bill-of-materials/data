@@ -1,0 +1,84 @@
+---
+kind: eurorack/module
+name: SWT16+ DIY
+company: robaux
+description: |
+  A versatile step sequencer with 16 steps and multiple outputs, allowing for
+  complex rhythmic patterns and control in modular setups.
+url: https://modulargrid.net/e/robaux-swt16-
+tags:
+  - clock generator
+  - digital
+  - sequencer
+color: black
+current:
+  12pos: 60
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 20
+  height: 3
+  depth: 30
+events:
+  - date: 2020-11-11
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 266
+
+  - date: 2020-11-25
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 4d
+    build_result: partial
+    build_notes: |
+      A 20 pin header sold on the wrong side of the PCB. Operator had to reorder
+      one at Saint Quentin Radio. Some leds don't like and buttons don't work.
+      Documented on Instagram, @schematicwizard SMD Hell pinned stories.
+
+  - date: 2020-11-25
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2021-02-01
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-03-29
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 3d
+    build_result: success
+    build_notes: |
+      After finally finding an email to contact Robaux, operator received the
+      module schematics allowing it to reverse engineer the PCB and fix
+      two broken PCB parts with hard wire. Module is fragile and PCB esthetics
+      messy, but functionnal. Documented on Instagram, @schematicwizard SMD Hell
+      pinned stories.
+
+  - date: 2022-04-01
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-06-03
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
+
+  - date: 2022-10-28
+    kind: move
+    source: ELM-0004
+    destination: storage
+
+  - date: 2022-11-07
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2023-01-07
+    kind: move
+    source: ELM-0002
+    destination: storage

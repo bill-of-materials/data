@@ -1,0 +1,46 @@
+---
+kind: eurorack/module
+name: Dual ADSR
+company: intellijel
+description: |
+  A dual envelope generator that features Attack, Decay, Sustain, and Release
+  controls for creating complex modulation shapes.
+url: https://modulargrid.net/e/intellijel-dual-adsr
+tags:
+  - dual/stereo
+  - envelope generator
+color: white
+current:
+  12pos: 60
+  12neg: 49
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 38
+events:
+  - date: 2017-04-20
+    kind: buy
+    source: operator (Charlie Cowper (UK))
+    destination: transit
+    price: 202
+
+  - date: 2017-04-24
+    kind: move
+    source: transit
+    destination: ELM-0002
+
+  - date: 2021-07-24
+    kind: store
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-08-10
+    kind: lend-out
+    source: ELM-0002
+    destination: operator (anee molly)
+
+  - date: 2023-03-17
+    kind: lend-in
+    source: operator (anee molly)
+    destination: storage
