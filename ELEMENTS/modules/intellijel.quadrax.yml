@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Quadrax
+company: intellijel
+description: A versatile quad function generator that can serve as an envelope generator, LFO, or oscillator, offering extensive modulation capabilities.
+tags:
+- function generator
+- envelope
+- modulation
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 250
+events:
+- date: 2021-07-24
+  kind: buy
+  target: 

@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: FX AID XL
+company: happynerding
+description: A versatile multi-effects module that provides a wide range of audio processing options including delay, reverb, distortion, and more, designed for flexibility in sound design.
+tags:
+- effects
+- audio processing
+- modulation
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 200
+events:
+- date: 2021-07-24
+  kind: buy
+  target: 

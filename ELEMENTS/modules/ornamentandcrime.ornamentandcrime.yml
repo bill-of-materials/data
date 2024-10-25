@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Ornament & Crime
+company: ornamentandcrime
+description: A multifunctional module that serves as a quantizer, sequencer, and much more, known for its powerful capabilities and versatility in various musical applications.
+tags:
+- sequencer
+- quantizer
+- multifunction
+dimensions:
+  width: 14
+  height: 3U
+buy_price: 250
+events:
+- date: 2018-03-04
+  kind: buy
+  target: 
+- date: 2023-08-29
+  kind: store
+  target: 

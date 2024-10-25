@@ -1,0 +1,15 @@
+kind: eurorack/module
+name: Kamieniec
+company: xaoc
+description: A versatile and powerful modulation source with complex waveforms and extensive CV capabilities, perfect for creating dynamic patches.
+tags:
+- modulation
+- eurorack
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 299
+events:
+- date: 2023-07-20
+  kind: buy
+  target: 

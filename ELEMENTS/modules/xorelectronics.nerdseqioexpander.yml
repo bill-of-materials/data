@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Nerdseq IO Expander
+company: xorelectronics
+description: An expansion module for the Nerdseq sequencer, providing additional input and output capabilities for enhanced sequencing functionality.
+tags:
+- expander
+- sequencer
+- io
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 150
+events:
+- date: 2021-02-03
+  kind: buy
+  target: 

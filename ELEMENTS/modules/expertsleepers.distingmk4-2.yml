@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Disting Mk4
+company: expertsleepers
+description: A highly versatile module that can perform a variety of functions, including effects, modulation, and more, making it a staple for any modular system.
+tags:
+- multifunction
+- effects
+- modulation
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 200
+events:
+- date: 2020-11-11
+  kind: buy
+  target: 

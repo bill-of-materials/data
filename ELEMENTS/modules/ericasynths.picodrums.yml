@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Pico Drums
+company: ericasynths
+description: A compact drum voice module that allows for the creation of drum sounds and percussion, featuring multiple drum synthesis algorithms.
+tags:
+- drums
+- percussion
+- sound design
+dimensions:
+  width: 3
+  height: 3U
+buy_price: 150
+events:
+- date: 2018-04-13
+  kind: buy
+  target: 

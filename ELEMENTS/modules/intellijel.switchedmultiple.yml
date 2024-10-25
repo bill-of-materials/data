@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Switched Multiple
+company: intellijel
+description: A 1U module that allows for easy switching between multiple audio or CV signals, making it perfect for routing and modulation.
+tags:
+- multiple
+- switching
+- routing
+dimensions:
+  width: 6
+  height: 1U
+buy_price: 99
+events:
+- date: 2022-04-25
+  kind: buy
+  target: 

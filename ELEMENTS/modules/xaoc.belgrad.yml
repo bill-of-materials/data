@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Belgrad
+company: xaoc
+description: A multi-mode filter with a unique topology and extensive modulation capabilities, allowing for a wide range of sound-shaping possibilities.
+tags:
+- filter
+- modulation
+- audio
+dimensions:
+  width: 14
+  height: 3U
+buy_price: 220
+events:
+- date: 2017-04-01
+  kind: buy
+  target: 

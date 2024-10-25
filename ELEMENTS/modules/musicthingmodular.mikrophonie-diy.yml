@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Mikrophonie
+company: musicthingmodular
+description: A unique microphone input module designed for modular synths, enabling the use of contact microphones and piezo sensors for sound manipulation.
+tags:
+- microphone
+- sensor
+- effects
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 180
+events:
+- date: 2017-10-29
+  kind: buy
+  target: 
+- date: 2021-08-10
+  kind: store
+  target: 

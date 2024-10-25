@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Hexmix
+company: befaco
+description: A versatile mixer module that allows for flexible audio routing and mixing of multiple signals with individual level controls, perfect for live performance and sound design.
+tags:
+- mixer
+- audio routing
+- performance
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 300
+events:
+- date: 2021-07-24
+  kind: buy
+  target: 

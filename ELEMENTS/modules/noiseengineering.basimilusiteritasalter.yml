@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Basimilus Iteritas Alter
+company: noiseengineering
+description: A versatile percussion synthesizer and sound generator that features extensive modulation capabilities, ideal for creating unique and complex sounds.
+tags:
+- percussion
+- synthesizer
+- modular
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 350
+events:
+- date: 2017-12-10
+  kind: buy
+  target: 

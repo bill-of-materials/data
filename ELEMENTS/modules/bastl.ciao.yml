@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Ciao
+company: bastl
+description: A compact and versatile output module designed for easy integration into a modular system, providing headphone and line-level outputs.
+tags:
+- output
+- utility
+- headphone
+dimensions:
+  width: 6
+  height: 3U
+buy_price: 120
+events:
+- date: 2017-05-27
+  kind: buy
+  target: 
+- date: 2021-08-10
+  kind: sell
+  target: 

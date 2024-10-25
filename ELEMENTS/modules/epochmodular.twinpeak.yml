@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Twin Peak
+company: epochmodular
+description: A dual resonant filter that offers powerful sound shaping capabilities with a unique interface, allowing for complex filtering and modulation options.
+tags:
+- filter
+- resonant
+- dual
+dimensions:
+  width: 14
+  height: 3U
+buy_price: 350
+events:
+- date: 2018-01-02
+  kind: buy
+  target: 
+- date: 2019-04-11
+  kind: sell
+  target: 

@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: OpticShifter
+company: teia
+description: A unique module that manipulates audio and control signals using advanced optical technology, enabling creative sound shaping and modulation.
+tags:
+- audio
+- modulation
+- effects
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 299
+events:
+- date: 2024-10-29
+  kind: buy
+  target:

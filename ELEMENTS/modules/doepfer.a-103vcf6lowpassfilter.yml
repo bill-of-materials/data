@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: A-103 VCF6 (Low Pass Filter)
+company: doepfer
+description: A low-pass filter module that offers smooth and musical filtering characteristics, ideal for subtractive synthesis.
+tags:
+- filter
+- vcf
+- lowpass
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 150
+events:
+- date: 2020-11-26
+  kind: buy
+  target: 

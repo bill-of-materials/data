@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: A-185-2
+company: doepfer
+description: A precision adder module that allows you to sum multiple CV signals with high accuracy, useful for complex modulation tasks.
+tags:
+- adder
+- cv
+- precision
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 179
+events:
+- date: 2022-12-10
+  kind: buy
+  target: 

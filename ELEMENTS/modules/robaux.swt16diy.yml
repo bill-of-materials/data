@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: SWT16+
+company: robaux
+description: A versatile step sequencer with 16 steps and multiple outputs, allowing for complex rhythmic patterns and control in modular setups.
+tags:
+- sequencer
+- DIY
+- control
+dimensions:
+  width: 16
+  height: 3U
+buy_price: 249
+events:
+- date: 2020-11-11
+  kind: buy
+  target: 

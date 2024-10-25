@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: µScale
+company: intellijel
+description: A scale quantizer module that allows you to adjust pitch and create complex musical scales, enhancing your melodic possibilities.
+tags:
+- quantizer
+- pitch
+- scale
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 199
+events:
+- date: 2022-12-10
+  kind: buy
+  target: 

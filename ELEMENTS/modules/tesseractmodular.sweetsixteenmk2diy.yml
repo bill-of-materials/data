@@ -1,0 +1,15 @@
+kind: eurorack/module
+name: Sweet Sixteen Mk2 DIY
+company: tesseractmodular
+description: A 16-step sequencer with intuitive controls and customizable features, ideal for creating complex patterns in your eurorack setup.
+tags:
+- sequencer
+- DIY
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 199
+events:
+- date: 2023-08-29
+  kind: buy
+  target: 

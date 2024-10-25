@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Maths
+company: makenoise
+description: A versatile function generator that can act as an envelope generator, LFO, or oscillator. Maths is essential for modulation and can generate complex waveforms and control signals.
+tags:
+- function generator
+- modulation
+- envelope
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 300
+events:
+- date: 2019-02-05
+  kind: buy
+  target: 

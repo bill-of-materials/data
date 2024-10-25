@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: STmix (2)
+company: befaco
+description: A compact stereo mixer module designed for eurorack systems, providing high-quality audio mixing with flexible routing options.
+tags:
+- mixer
+- audio
+- DIY
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 199
+events:
+- date: 2023-03-11
+  kind: buy
+  target: 

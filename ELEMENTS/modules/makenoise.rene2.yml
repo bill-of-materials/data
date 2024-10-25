@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: René 2
+company: makenoise
+description: A sophisticated Cartesian sequencer designed to generate complex sequences of control voltages with intuitive control and visual feedback, ideal for performance and live tweaking.
+tags:
+- sequencer
+- performance
+- control voltage
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 450
+events:
+- date: 2018-12-12
+  kind: buy
+  target: 

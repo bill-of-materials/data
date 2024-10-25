@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Filter 8
+company: joranalogue
+description: A versatile multi-mode filter module that offers eight different filter characteristics, allowing for creative sound shaping and manipulation.
+tags:
+- filter
+- sound design
+- modulation
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 350
+events:
+- date: 2021-08-12
+  kind: buy
+  target: 

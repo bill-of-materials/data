@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Aperture
+company: wmd
+description: A versatile stereo filter module that offers extensive modulation options, allowing users to shape and sculpt their audio signals with precision.
+tags:
+- filter
+- stereo
+- modulation
+dimensions:
+  width: 14
+  height: 3U
+buy_price: 250
+events:
+- date: 2017-08-12
+  kind: buy
+  target: 
+- date: 2021-08-10
+  kind: store
+  target: 

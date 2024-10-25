@@ -1,0 +1,15 @@
+kind: eurorack/module
+name: Gliss (1)
+company: bela
+description: A digital audio processing module that allows for real-time pitch and time manipulation, designed for performance and sound design.
+tags:
+- audio
+- processing
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 299
+events:
+- date: 2024-02-10
+  kind: buy
+  target: 

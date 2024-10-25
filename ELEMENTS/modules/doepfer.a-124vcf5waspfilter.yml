@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: A-124 VCF5 (Wasp Filter)
+company: doepfer
+description: A voltage-controlled filter based on the classic Wasp filter design, providing distinctive sonic characteristics with resonant filtering capabilities.
+tags:
+- filter
+- vcf
+- wasp
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 180
+events:
+- date: 2020-11-26
+  kind: buy
+  target: 

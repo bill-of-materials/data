@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Elements
+company: mutableinstruments
+description: A physical modeling synthesizer that simulates acoustic sounds, offering an expressive and dynamic approach to sound synthesis.
+tags:
+- physical modeling
+- synthesizer
+- sound design
+dimensions:
+  width: 14
+  height: 3U
+buy_price: 300
+events:
+- date: 2018-03-15
+  kind: buy
+  target: 
+- date: 2020-11-11
+  kind: sell
+  target: 

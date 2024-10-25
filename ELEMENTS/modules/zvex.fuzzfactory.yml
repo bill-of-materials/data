@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Fuzz Factory
+company: zvex
+description: A unique fuzz distortion module that offers a wide range of tonal possibilities, featuring interactive controls that shape the distortion effect in real-time.
+tags:
+- distortion
+- fuzz
+- effects
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 250
+events:
+- date: 2017-08-12
+  kind: buy
+  target: 

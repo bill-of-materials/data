@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Chronoblob 2
+company: alrightdevices
+description: A delay module that combines a straightforward interface with versatile functionality, making it ideal for creating atmospheric soundscapes.
+tags:
+- delay
+- effects
+- modulation
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 249
+events:
+- date: 2022-10-26
+  kind: buy
+  target: 

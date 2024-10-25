@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Sweet Sixteen Mk2
+company: tesseractmodular
+description: A versatile sequencer module that offers 16 steps with a range of features for controlling pitch, duration, and gate settings, perfect for live performance and composition.
+tags:
+- sequencer
+- modulation
+- performance
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 249
+events:
+- date: 2024-04-05
+  kind: buy
+  target: 

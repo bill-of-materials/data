@@ -1,0 +1,15 @@
+kind: eurorack/module
+name: Pico Input
+company: ericasynths
+description: A compact and versatile input module designed for connecting line-level signals to eurorack systems, maintaining audio fidelity and ease of use.
+tags:
+- audio
+- input
+dimensions:
+  width: 3
+  height: 3U
+buy_price: 99
+events:
+- date: 2023-08-29
+  kind: buy
+  target: 

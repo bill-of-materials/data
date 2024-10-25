@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Hexpander
+company: befaco
+description: A powerful expander module designed to work with the Hexmix mixer, offering additional inputs and outputs for enhanced mixing capabilities and routing options.
+tags:
+- expander
+- mixer
+- audio routing
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 250
+events:
+- date: 2021-07-24
+  kind: buy
+  target: 

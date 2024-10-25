@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Links
+company: mutableinstruments
+description: A utility module that provides multiple signal distribution options, allowing you to easily split, mix, and route audio and CV signals in your modular setup.
+tags:
+- utility
+- mixer
+- distribution
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 120
+events:
+- date: 2017-04-03
+  kind: buy
+  target: 

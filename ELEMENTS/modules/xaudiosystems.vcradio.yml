@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: VCRadio
+company: xaudiosystems
+description: A radio receiver module designed for Eurorack systems, capable of picking up AM and FM signals, providing unique sound sources and modulation capabilities.
+tags:
+- radio
+- sound source
+- modulation
+dimensions:
+  width: 8
+  height: 3U
+buy_price: 199
+events:
+- date: 2024-07-15
+  kind: buy
+  target: 

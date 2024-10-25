@@ -1,0 +1,15 @@
+kind: eurorack/module
+name: A-180-2
+company: doepfer
+description: A multiple module that allows for the distribution of audio and control voltage signals, providing three sets of passive multiple outputs for flexibility in signal routing.
+tags:
+- multiple
+- utility
+dimensions:
+  width: 4
+  height: 3U
+buy_price: 50
+events:
+- date: 2017-04-03
+  kind: buy
+  target: 

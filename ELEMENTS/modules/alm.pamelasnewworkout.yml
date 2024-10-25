@@ -1,0 +1,32 @@
+---
+kind: eurorack/module
+name: Pamela's New Workout
+company: alm
+description: |
+  A versatile clock and trigger generator that allows for complex rhythmic
+  patterns and modulation, featuring a wide array of programmable sequences and
+  outputs.
+url: https://modulargrid.net/e/alm-busy-circuits-pamela-s-new-workout--
+tags:
+  - clock generator
+  - clock modulator
+  - digital
+  - envelope generator
+  - lfo
+  - quantizer
+  - random
+  - sequencer
+current:
+  12pos: 50
+  12neg: 1
+  5pos: 0
+dimensions:
+  width: 8
+  height: 3
+  depth: 22
+events:
+  - date: 2017-12-16
+    kind: buy
+    source:
+    destination:
+    price:

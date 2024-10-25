@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: ES-8
+company: expertsleepers
+description: An audio interface module for Eurorack systems, providing high-quality audio input and output along with CV control for a seamless integration with computers and DAWs.
+tags:
+- audio interface
+- CV
+- Eurorack
+dimensions:
+  width: 16
+  height: 3U
+buy_price: 499
+events:
+- date: 2020-11-11
+  kind: buy
+  target: 

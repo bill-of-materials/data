@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Pico DSP
+company: ericasynths
+description: A compact digital signal processor module that provides a variety of effects and processing options, perfect for modular setups.
+tags:
+- dsp
+- effects
+- processing
+dimensions:
+  width: 3
+  height: 3U
+buy_price: 200
+events:
+- date: 2020-11-26
+  kind: buy
+  target: 

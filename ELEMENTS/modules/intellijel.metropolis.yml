@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Metropolis
+company: intellijel
+description: A powerful sequencer that allows for complex melodic patterns and sequencing with an intuitive interface and extensive modulation capabilities.
+tags:
+- sequencer
+- melody
+- modular
+dimensions:
+  width: 20
+  height: 3U
+buy_price: 350
+events:
+- date: 2017-09-04
+  kind: buy
+  target: 
+- date: 2020-10-01
+  kind: sell
+  target: 

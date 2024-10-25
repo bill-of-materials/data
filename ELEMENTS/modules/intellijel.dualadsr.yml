@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: Dual ADSR
+company: intellijel
+description: A dual envelope generator that features Attack, Decay, Sustain, and Release controls for creating complex modulation shapes in both audio and CV applications.
+tags:
+- envelope
+- modulation
+- ADSR
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 250
+events:
+- date: 2017-04-12
+  kind: buy
+  target: 
+- date: 2021-08-10
+  kind: store
+  target: 

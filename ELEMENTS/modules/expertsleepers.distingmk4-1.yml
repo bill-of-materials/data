@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Disting Mk4 (1)
+company: expertsleepers
+description: A versatile module that functions as a multi-purpose tool, providing numerous utilities such as a pitch shifter, sample playback, and more in a compact format.
+tags:
+- utility
+- multi-function
+- effects
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 250
+events:
+- date: 2019-08-15
+  kind: buy
+  target: 

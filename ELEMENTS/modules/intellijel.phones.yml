@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Phones
+company: intellijel
+description: A compact 1U headphone amplifier designed for high-quality monitoring of your modular system, providing clarity and power for your audio.
+tags:
+- amplifier
+- headphone
+- monitoring
+dimensions:
+  width: 6
+  height: 1U
+buy_price: 99
+events:
+- date: 2022-04-25
+  kind: buy
+  target: 

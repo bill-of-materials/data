@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: FX AID
+company: happynerding
+description: A compact effects processor offering a wide range of algorithms for creative sound manipulation, designed for live performance and studio use.
+tags:
+- effects
+- sound processing
+- live performance
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 250
+events:
+- date: 2021-08-12
+  kind: buy
+  target: 

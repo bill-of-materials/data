@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Nerdseq CV16 Expander (1)
+company: xorelectronics
+description: An expander module for the Nerdseq, providing additional CV outputs and flexibility for sequencing and modulation.
+tags:
+- expander
+- sequencing
+- modulation
+dimensions:
+  width: 12
+  height: 3U
+buy_price: 249
+events:
+- date: 2022-12-07
+  kind: buy
+  target: 

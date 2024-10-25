@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Line In 1U
+company: mosaic
+description: A 1U module designed to interface line-level signals with your eurorack system, ensuring high-quality audio performance.
+tags:
+- audio
+- input
+- 1U
+dimensions:
+  width: 6
+  height: 1U
+buy_price: 129
+events:
+- date: 2023-08-18
+  kind: buy
+  target: 

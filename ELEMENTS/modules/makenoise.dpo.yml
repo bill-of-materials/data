@@ -1,0 +1,19 @@
+kind: eurorack/module
+name: DPO
+company: makenoise
+description: A dual oscillator that combines complex waveforms with unique modulation capabilities, allowing for rich sound design and evolving textures.
+tags:
+- oscillator
+- dual
+- sound design
+dimensions:
+  width: 26
+  height: 3U
+buy_price: 399
+events:
+- date: 2017-05-18
+  kind: buy
+  target: 
+- date: 2023-08-01
+  kind: sell
+  target: 

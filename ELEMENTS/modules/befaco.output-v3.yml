@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: Output v3
+company: befaco
+description: A versatile output module designed to convert eurorack signals to line level, featuring headphone output and multiple output options.
+tags:
+- output
+- audio
+- DIY
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 199
+events:
+- date: 2023-03-11
+  kind: buy
+  target: 

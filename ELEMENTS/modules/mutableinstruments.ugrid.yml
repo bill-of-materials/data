@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: uGrid
+company: mutableinstruments
+description: A versatile utility module designed for handling grid-based data processing and management, particularly useful in modular synthesis setups.
+tags:
+- utility
+- data
+- grid
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 150
+events:
+- date: 2020-02-10
+  kind: buy
+  target: 

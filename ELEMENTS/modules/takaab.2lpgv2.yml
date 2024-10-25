@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: 2LPG (v2)
+company: takaab
+description: A dual low-pass gate that provides an expressive way to shape your sound through volume and filter control.
+tags:
+- low-pass gate
+- filter
+- modulation
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 250
+events:
+- date: 2021-11-22
+  kind: buy
+  target: 

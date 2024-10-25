@@ -1,0 +1,16 @@
+kind: eurorack/module
+name: MSCL
+company: wmd
+description: A dynamics control module that provides compression, limiting, and expansion features, allowing you to sculpt your audio signals with precision.
+tags:
+- compressor
+- dynamics
+- audio
+dimensions:
+  width: 10
+  height: 3U
+buy_price: 299
+events:
+- date: 2023-06-19
+  kind: buy
+  target: 
