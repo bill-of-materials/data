@@ -1,0 +1,26 @@
+---
+kind: eurorack/module
+name: STmix (DIY)
+company: befaco
+description: |
+  Four channel stereo mixer
+url: https://modulargrid.net/e/befaco-stmix-diy-kit
+tags:
+  - mixer
+  - dual/stereo
+  - utility
+color: black
+current:
+  12pos: 8
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 6
+  height: 3
+  depth: 30
+events:
+  - date: 2022-05-09
+    kind: buy
+    source: retail (thonk)
+    destination: ELM-0004
+    price: 82

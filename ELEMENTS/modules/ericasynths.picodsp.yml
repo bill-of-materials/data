@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: Pico DSP
+company: ericasynths
+description: |
+  8 custom stereo effects
+url: https://modulargrid.net/e/erica-synths-pico-dsp
+tags:
+  - delay
+  - distortion
+  - effect
+  - reverb
+color: black
+current:
+  12pos: 82
+  12neg: 20
+  5pos: 0
+dimensions:
+  width: 3
+  height: 3
+  depth: 35
+# todo
+buy_price: 200
+events:
+  - date: 2020-11-26
+    kind: buy
+    target:

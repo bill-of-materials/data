@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: Line In 1U
+company: mosaic
+description: |
+  A 1U module designed to interface line-level signals with your eurorack
+  system, ensuring high-quality audio performance.
+url: https://modulargrid.net/e/mosaic-line-in-black-panel
+tags:
+  - external
+color: black
+current:
+  12pos: 23
+  12neg: 21
+  5pos: 0
+dimensions:
+  width: 8
+  height: 1
+  depth: 38
+# todo
+buy_price: 129
+events:
+  - date: 2023-08-18
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0004
+    price: 38

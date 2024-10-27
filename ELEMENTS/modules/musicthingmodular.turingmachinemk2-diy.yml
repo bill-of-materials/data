@@ -1,0 +1,26 @@
+---
+kind: eurorack/module
+name: Turing Machine MkII (DIY)
+company: musicthingmodular
+description: |
+  Random looping sequencer module
+url: https://modulargrid.net/e/music-thing-modular-turing-machine-mk-ii
+tags:
+  - noise
+  - random
+  - sequencer
+color: white
+current:
+  12pos: 40
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 10
+  height: 3
+  depth: 38
+# todo
+buy_price: 200
+events:
+  - date: 2017-10-29
+    kind: buy
+    target:

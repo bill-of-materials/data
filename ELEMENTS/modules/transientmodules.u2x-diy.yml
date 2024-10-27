@@ -1,0 +1,41 @@
+---
+kind: eurorack/module
+name: u2X (DIY)
+company: transientmodules
+description: |
+  Dual buffered multiples
+url: https://modulargrid.net/e/transient-modules-u2x
+tags:
+  - dual/stereo
+  - multiple
+color: white
+current:
+  12pos: 25
+  12neg: 25
+  5pos: 0
+dimensions:
+  width: 12
+  height: 1
+  depth: 25
+events:
+  - date: 2022-05-09
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 38
+
+  - date: 2022-05-20
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 1h
+    build_result: success
+
+  - date: 2022-05-20
+    kind: move
+    source: storage
+    destination: ELM-0004
+
+  - date: 2023-08-29
+    kind: move
+    source: ELM-0004
+    destination: storage

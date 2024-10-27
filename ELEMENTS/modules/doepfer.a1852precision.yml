@@ -1,0 +1,29 @@
+---
+kind: eurorack/module
+name: A-185-2
+company: doepfer
+description: |
+  Precision Adder/Bus Access
+url: https://modulargrid.net/e/doepfer-a-185-2
+tags:
+  - attenuator
+  - controller
+  - mixer
+  - multiple
+  - switch
+  - utility
+color: white
+current:
+  12pos: 10
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 6
+  height: 3
+  depth: 50
+# todo
+buy_price: 179
+events:
+- date: 2022-12-10
+  kind: buy
+  target:

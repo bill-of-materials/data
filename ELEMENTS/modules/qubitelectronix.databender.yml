@@ -1,0 +1,28 @@
+---
+kind: eurorack/module
+name: Data Bender
+company: Qu-Bit Electronix
+description: |
+  Circuit Bent Digital Audio Buffer
+url: https://modulargrid.net/e/qu-bit-electronix-data-bender
+tags:
+  - digital
+  - distortion
+  - sampling
+  - dual/stereo
+  - effects
+color: black
+current:
+  12pos: 58
+  12neg: 60
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 28
+# TODO
+buy_price: 299
+events:
+  - date: 2022-03-16
+    kind: buy
+    destination: ELM-0002
