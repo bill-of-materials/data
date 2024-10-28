@@ -1,0 +1,42 @@
+---
+kind: eurorack/module
+name: René 2
+company: makenoise
+description: |
+  A sophisticated Cartesian sequencer designed to generate complex sequences of
+  control voltages with intuitive control and visual feedback, ideal for
+  performance and live tweaking.
+url: https://modulargrid.net/e/make-noise-rene-mk2
+tags:
+  - controller
+  - cv modulation
+  - logic
+  - quantizer
+  - sequencer
+color: black
+current:
+  12pos: 235
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 34
+  height: 3
+  depth: 24
+events:
+  - date: 2018-12-26
+    kind: buy
+    source: operator (Emmanuel Guillod (CH))
+    destination: ELM-0002
+    price: 490
+    # Transit through David Eberlein & Hélène G. (FR)
+
+  - date: 2020-09-25
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2020-11-18
+    kind: sell
+    source: storage
+    destination: operator (Christophe Frot (FR))
+    price: 450

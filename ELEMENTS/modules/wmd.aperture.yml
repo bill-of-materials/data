@@ -1,0 +1,35 @@
+---
+kind: eurorack/module
+name: Aperture
+company: wmd
+description: |
+  Variable Width Bandpass Filter
+url: https://modulargrid.net/e/wmd-aperture-
+tags:
+  - filter
+  - feedback
+color: white
+current:
+  12pos: 120
+  12neg: 100
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 25
+events:
+  - date: 2017-08-12
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 349
+
+  - date: 2021-08-10
+    kind: lend-out
+    source: ELM-0002
+    destination: operator (anee molly)
+
+  - date: 2023-02-17
+    kind: lend-in
+    source: operator (anee molly)
+    destination: storage

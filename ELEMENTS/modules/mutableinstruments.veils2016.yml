@@ -1,0 +1,42 @@
+---
+kind: eurorack/module
+name: Veils (2016)
+company: mutableinstruments
+description: |
+  Quad VCA and mixer
+url: https://modulargrid.net/e/mutable-instruments-veils
+tags:
+  - vca
+  - mixer
+  - utility
+  - quad
+color: white
+current:
+  12pos: 50
+  12neg: 50
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 10
+events:
+  - date: 2017-04-03
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002
+    price: 175
+
+  - date: 2021-07-24
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-08-10
+    kind: lend-out
+    source: storage
+    destination: operator (anee molly)
+
+  - date: 2022-06-26
+    kind: lend-in
+    source: operator (anee molly)
+    destination: ELM-0002

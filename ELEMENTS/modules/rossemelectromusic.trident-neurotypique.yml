@@ -1,0 +1,33 @@
+---
+kind: eurorack/module
+name: Trident
+company: rossemelectromusic
+description: |
+  Multi-Synchronic Triple Analog Oscillator Ensemble. Also named Triton.
+url: https://modulargrid.net/e/rossum-electro-music-triton
+tags:
+  - oscillator
+color: white
+current:
+  12pos: 290
+  12neg: 270
+  5pos: 0
+dimensions:
+  width: 30
+  height: 3
+  depth: 25
+events:
+  - date: 2022-11-05
+    kind: lend-in
+    source: operator (Neurotypique)
+    destination: ELM-0002
+
+  - date: 2022-11-26
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2023-01-27
+    kind: lend-out
+    source: storage
+    destination: operator (Neurotypique)

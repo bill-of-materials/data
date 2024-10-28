@@ -1,0 +1,33 @@
+---
+kind: eurorack/module
+name: Nerdseq Multi-IO Expander
+company: xorelectronics
+description: |
+  An expansion module for the Nerdseq, offering I2C & MIDI inputs and outputs to
+  enhance its functionality, providing more routing and modulation options.
+url: https://modulargrid.net/e/xor-electronics-multi-io-expander-black
+tags:
+  - expander
+  - midi
+  - i2c
+color: black
+current:
+  12pos: 20
+  12neg: 0
+  5pos: 0
+  power: daisy
+dimensions:
+  width: 6
+  height: 3
+  depth: 40
+events:
+  - date: 2024-01-23
+    kind: buy
+    source: retail (musicstore)
+    destination: storage
+    price: 251
+
+  - date: 2024-02-03
+    kind: move
+    source: storage
+    destination: ELM-0002

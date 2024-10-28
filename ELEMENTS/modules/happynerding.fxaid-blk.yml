@@ -1,0 +1,38 @@
+---
+kind: eurorack/module
+name: FX AID
+company: happynerding
+description: |
+  A versatile multi-effects module that provides a wide range of audio
+  processing options including delay, reverb, distortion, and more, designed for
+  flexibility in sound design.
+url: https://modulargrid.net/e/happy-nerding-fx-aid-black
+tags:
+  - delay
+  - digital
+  - distortion
+  - dual/stereo
+  - effect
+  - pitch shifter
+  - reverb
+color: black
+current:
+  12pos: 80
+  12neg: 30
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 45
+events:
+  - date: 2021-12-01
+    kind: trade-in
+    source: operator (Kevin Paul Cachay (FR))
+    destination: ELM-0002
+    trade_with:
+      - happynerding.fxaid-wht # white
+
+  - date: 2022-06-03
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004

@@ -1,0 +1,40 @@
+---
+kind: eurorack/module
+name: STmix (DIY)
+company: befaco
+description: |
+  Four channel stereo mixer
+url: https://modulargrid.net/e/befaco-stmix-diy-kit
+tags:
+  - mixer
+  - dual/stereo
+  - utility
+color: black
+current:
+  12pos: 8
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 6
+  height: 3
+  depth: 30
+events:
+  - date: 2022-05-09
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 82
+
+  - date: 2022-05-15
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 1d
+    build_result: success
+    build_notes: |
+      Missing ribbon in the Thonk DIY Kit (to connect to Hexmix)
+      Ribbon was sent by Befaco after an email exchange on 2023-03-07
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0004

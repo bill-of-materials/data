@@ -143,8 +143,8 @@ gantt
   section state
   research              :active,    2016-01-01, 2025-12-31
   prototype             :done,      2017-01-07, 2018-03-01
-  v1.0.0                :done,      2018-03-01, 2022-06-10
-  v2.0.0                :active,    2022-06-10, 2025-12-31
+  v1.0.0                :done,      2018-03-01, 2022-06-03
+  v2.0.0                :active,    2022-06-03, 2025-12-31
 
   section sandboxes
   sw_teststream                :milestone, 2017-02-19, 1d
@@ -157,6 +157,7 @@ gantt
   nullpart01                   :milestone, 2020-08-14, 2020-08-28
   nullpart01.garage            :milestone, 2021-02-06, 2021-02-07
   nullpart02                   :milestone, 2021-08-14, 2021-08-28
+  sw+th_newyear__01            :milestone, 2021-12-31, 1d
   nullpart03                   :milestone, 2022-08-14, 2022-08-28
   sw_live001.velvetmoon        :milestone, 2023-01-21, 1d
   sw_rehearsal__sw_live002     :milestone, 2023-03-31, 1d

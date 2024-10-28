@@ -1,0 +1,79 @@
+---
+kind: eurorack/module
+name: Mutes (DIY)
+company: divkid
+description: |
+  Performance focussed multi channel mute.
+url: https://modulargrid.net/e/divkid-mutes
+tags:
+  - controller
+  - expression
+  - multiple
+  - quad
+  - utility
+color: black
+current:
+  12pos: 50
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 32
+events:
+  - date: 2019-05-24
+    kind: buy
+    source: retail (thonk)
+    destination: transit
+    price: 99
+
+  - date: 2019-05-29
+    kind: move
+    source: transit
+    destination: storage
+
+  - date: 2019-05-30
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 30m
+    build_result: success
+
+  - date: 2019-05-30
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2020-12-20
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-08-13
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-04-01
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0004
+
+  - date: 2022-11-06
+    kind: move
+    source: ELM-0004
+    destination: ELM-0002
+
+  - date: 2023-06-20
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
+
+  - date: 2024-07-15
+    kind: move
+    source: ELM-0004
+    destination: storage

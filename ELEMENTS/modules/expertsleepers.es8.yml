@@ -1,0 +1,27 @@
+---
+kind: eurorack/module
+name: ES-8
+company: expertsleepers
+description: |
+  USB and ADAT audio interface
+url: https://modulargrid.net/e/expert-sleepers-es-8
+tags:
+  - cv modulation
+  - utility
+  - external
+  - controller
+color: black
+current:
+  12pos: 198
+  12neg: 52
+  5pos: 0
+dimensions:
+  width: 8
+  height: 3
+  depth: 50
+events:
+  - date: 2020-11-11
+    kind: buy
+    source: retail (signalsound)
+    destination: ELM-0002
+    price: 462

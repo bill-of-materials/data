@@ -1,0 +1,42 @@
+---
+kind: eurorack/module
+name: Twin Drive (DIY)
+company: musicthingmodular
+description: |
+  Stereo version of the MTM distortion mini Drive
+url: https://modulargrid.net/e/music-thing-modular-twin-drive
+tags:
+  - distortion
+  - dual/stereo
+  - effect
+  - waveshaper
+color: black
+current:
+  12pos: 82
+  12neg: 6
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+events:
+  - date: 2023-01-04
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 68
+
+  - date: 2023-01-07
+    kind: build
+    build_operator: schematicwizard
+    build_result: success
+    build_duration: 1h
+
+  - date: 2023-01-07
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2023-06-20
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
