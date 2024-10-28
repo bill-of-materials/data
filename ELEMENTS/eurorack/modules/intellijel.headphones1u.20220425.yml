@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: intellijel.headphones1u
+aspect:
+  color: white
+events:
+  - date: 2022-04-25
+    kind: buy
+    source: retail (musicstore)
+    destination: transit
+    price: 77
+
+  - date: 2022-04-30
+    kind: move
+    source: transit
+    destination: ELM-0004
+
+  - date: 2023-07-20
+    kind: move
+    source: ELM-0004
+    destination: storage

@@ -1,0 +1,10 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: expertsleepers.distingmk4
+events:
+  - date: 2020-11-11
+    kind: buy
+    source: retail (signalsound)
+    destination: ELM-0002
+    price: 168

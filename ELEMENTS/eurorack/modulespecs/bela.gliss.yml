@@ -1,0 +1,25 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Gliss
+company: Bela
+description: |
+  Intuitive Modular Synth Touch Control
+url: https://modulargrid.net/e/bela-gliss
+tags:
+  - controller
+  - cv modulation
+  - envelope generator
+  - function generator
+  - lfo
+  - oscillator
+  - sequencer
+  - waveshaper
+current:
+  12pos: 150
+  12neg: 30
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 26

@@ -1,0 +1,27 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Maths
+company: Make Noise
+description: |
+  A versatile function generator that can act as an envelope generator, LFO, or
+  oscillator. Maths is essential for modulation and can generate complex
+  waveforms and control signals.
+url: https://modulargrid.net/e/make-noise-maths-white-knobs
+tags:
+  - attenuator
+  - cv modulation
+  - envelope follower
+  - envelope generator
+  - function generator
+  - lfo
+  - logic
+  - slew limiter
+current:
+  12pos: 60
+  12neg: 50
+  5pos: 0
+dimensions:
+  width: 20
+  height: 3
+  depth: 24

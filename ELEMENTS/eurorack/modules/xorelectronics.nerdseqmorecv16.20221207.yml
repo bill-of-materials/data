@@ -1,0 +1,12 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: xorelectronics.nerdseqmorecv16
+aspect:
+  color: black
+events:
+  - date: 2022-12-07
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 164

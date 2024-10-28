@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Line In 1U
+company: Mosaic
+description: |
+  A 1U module designed to interface line-level signals with your eurorack
+  system, ensuring high-quality audio performance.
+url: https://modulargrid.net/e/mosaic-line-in-black-panel
+tags:
+  - external
+current:
+  12pos: 23
+  12neg: 21
+  5pos: 0
+dimensions:
+  width: 8
+  height: 1
+  depth: 38

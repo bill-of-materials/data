@@ -1,0 +1,21 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Nerdseq CV16 Expander
+company: XOR Electronics
+description: |
+  An expander module for the Nerdseq, providing additional CV outputs and
+  flexibility for sequencing and modulation.
+url: https://modulargrid.net/e/xor-electronics-nerdseq-cv16-expander-black
+tags:
+  - expander
+  - modulation
+current:
+  12pos: 75
+  12neg: 35
+  5pos: 0
+  power: daisy
+dimensions:
+  width: 8
+  height: 3
+  depth: 24

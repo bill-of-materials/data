@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Twin Peak
+company: Epoch Modular
+description: |
+  Pingable 12dB variable curve filter
+url: https://modulargrid.net/e/epoch-modular-twinpeak
+tags:
+  - filter
+  - dual/stereo
+current:
+  12pos: 35
+  12neg: 35
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 22

@@ -1,0 +1,26 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: FX AID XL
+company: Happy Nerding
+description: |
+  A versatile multi-effects module that provides a wide range of audio
+  processing options including delay, reverb, distortion, and more, designed for
+  flexibility in sound design.
+url: https://modulargrid.net/e/happy-nerding-fx-aid-xl
+tags:
+  - delay
+  - digital
+  - distortion
+  - dual/stereo
+  - effect
+  - pitch shifter
+  - reverb
+current:
+  12pos: 80
+  12neg: 30
+  5pos: 0
+dimensions:
+  width: 6
+  height: 3
+  depth: 45

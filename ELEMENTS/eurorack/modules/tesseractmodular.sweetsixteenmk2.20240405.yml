@@ -1,0 +1,10 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: tesseractmodular.sweetsixteenmk2
+events:
+  - date: 2024-04-05
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 218

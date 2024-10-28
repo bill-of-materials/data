@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Mix
+company: 2hp
+description: |
+  A compact mixer module that offers multiple inputs and outputs, ideal for
+  summing audio signals in a space-efficient design.
+url: https://modulargrid.net/e/2hp-mix
+tags:
+  - attenuator
+  - mixer
+current:
+  12pos: 41
+  12neg: 41
+  5pos: 0
+dimensions:
+  width: 2
+  height: 3
+  depth: 42

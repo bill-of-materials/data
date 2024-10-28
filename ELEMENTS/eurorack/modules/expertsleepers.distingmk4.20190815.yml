@@ -1,0 +1,12 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: expertsleepers.distingmk4
+aspect:
+  color: black
+events:
+  - date: 2019-08-15
+    kind: buy
+    source: operator (Marc Debroey - SEBASTOPOLmusic (BE))
+    destination: ELM-0002
+    price: 125

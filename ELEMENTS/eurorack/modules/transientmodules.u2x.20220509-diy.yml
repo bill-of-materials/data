@@ -1,0 +1,29 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: transientmodules.u2x
+aspect:
+  color: white
+diy: true
+events:
+  - date: 2022-05-09
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 38
+
+  - date: 2022-05-20
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 1h
+    build_result: success
+
+  - date: 2022-05-20
+    kind: move
+    source: storage
+    destination: ELM-0004
+
+  - date: 2023-08-29
+    kind: move
+    source: ELM-0004
+    destination: storage

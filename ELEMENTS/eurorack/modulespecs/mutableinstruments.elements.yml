@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Elements
+company: Mutable Instruments
+description: |
+  A physical modal synthesizer that simulates acoustic sounds, offering an
+  expressive and dynamic approach to sound synthesis.
+url: https://modulargrid.net/e/mutable-instruments-elements
+tags:
+  - digital
+  - synth voice
+current:
+  12pos: 130
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 34
+  height: 3
+  depth: 25
