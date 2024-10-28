@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Dual ADSR
+company: Intellijel
+description: |
+  A dual envelope generator that features Attack, Decay, Sustain, and Release
+  controls for creating complex modulation shapes.
+url: https://modulargrid.net/e/intellijel-dual-adsr
+tags:
+  - dual/stereo
+  - envelope generator
+current:
+  12pos: 60
+  12neg: 49
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 38

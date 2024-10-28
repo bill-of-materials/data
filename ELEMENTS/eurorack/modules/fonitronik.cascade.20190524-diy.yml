@@ -1,0 +1,34 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: fonitronik.cascade
+aspect:
+  color: white
+diy: true
+events:
+  - date: 2019-05-24
+    kind: buy
+    source: retail (thonk)
+    destination: transit
+    price: 77
+
+  - date: 2019-05-29
+    kind: move
+    source: transit
+    destination: storage
+
+  - date: 2019-05-31
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 1d
+    build_result: success
+
+  - date: 2019-05-31
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-06-03
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004

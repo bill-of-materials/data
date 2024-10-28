@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Voltage Block
+company: Malekko Heavy Industry Corporation
+description: |
+  8 independent 16-stage CV sequencers packed with performance features and
+  presets makes the Voltage Block the ultimate CV control tool.
+url: https://modulargrid.net/e/malekko-heavy-industry-voltage-block
+tags:
+  - cv modulation
+  - quantizer
+  - sequencer
+  - digital
+current:
+  12pos: 120
+  12neg: 15
+  5pos: 0
+dimensions:
+  width: 20
+  height: 3
+  depth: 20

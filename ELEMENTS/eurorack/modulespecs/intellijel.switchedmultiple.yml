@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Switched Multiple
+company: Intellijel
+description: |
+  A chainable, passive switched multiplier
+url: https://modulargrid.net/e/intellijel-switched-mult-1u
+tags:
+  - mixer
+  - multiple
+  - switch
+  - utility
+current:
+  12pos: 0
+  12neg: 0
+  5pos: 0
+  power: passive
+dimensions:
+  width: 14
+  height: 1
+  depth: 18

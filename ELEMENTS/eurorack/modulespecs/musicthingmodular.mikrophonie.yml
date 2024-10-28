@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Mikrophonie (2017)
+company: Music Thing Modular
+description: |
+  A unique microphone input module enabling the use of contact microphones and
+  piezo sensor for sound manipulation.
+url: https://modulargrid.net/e/music-thing-modular-mikrophonie-2017-new-panel-design
+tags:
+  - external
+  - preamp
+current:
+  12pos: 5
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 25

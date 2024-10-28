@@ -1,0 +1,10 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: rossemelectromusic.trident
+events:
+  - date: 2022-11-26
+    kind: buy
+    source: operator (Xavier Reuss)
+    destination: ELM-0002
+    price: 500

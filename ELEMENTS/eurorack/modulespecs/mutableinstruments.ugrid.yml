@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: uGrids
+company: Mutable Instruments
+description: |
+  Micro Mutable Instruments Grids
+url: https://modulargrid.net/e/pusherman-ugrids
+tags:
+  - clock generator
+  - digital
+  - drum
+  - random
+  - sequencer
+current:
+  12pos: 25
+  12neg: 25
+  5pos: 0
+dimensions:
+  width: 8
+  height: 3
+  depth: 25

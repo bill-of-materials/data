@@ -1,0 +1,25 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Disting Mk4
+company: Expert Sleepers
+description: |
+  Many-in-1 multifunction module
+url: https://modulargrid.net/e/expert-sleepers-disting-mk4
+tags:
+  - delay
+  - effect
+  - lfo
+  - oscillator
+  - quantizer
+  - sampling
+  - utility
+  - waveshaper
+current:
+  12pos: 51
+  12neg: 19
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 42

@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Mutes
+company: DivKid
+description: |
+  Performance focussed multi channel mute.
+url: https://modulargrid.net/e/divkid-mutes
+tags:
+  - controller
+  - expression
+  - multiple
+  - quad
+  - utility
+current:
+  12pos: 50
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 32

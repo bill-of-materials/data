@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: Pulses MKII
+company: Music Thing Modular
+description: |
+  Turing Machine expander that produces clocks and trigger signals
+url: https://modulargrid.net/e/music-thing-modular-pulses-mk-ii
+tags:
+  - expander
+  - logic
+current:
+  12pos: 27
+  12neg: 0
+  5pos: 0
+  power: daisy
+dimensions:
+  width: 4
+  height: 3
+  depth: 18

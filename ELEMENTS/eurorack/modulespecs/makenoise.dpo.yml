@@ -1,0 +1,21 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+name: DPO
+company: Make Noise
+description: |
+  A dual voltage controlled oscillator designed for generating complex waveforms.
+url: https://modulargrid.net/e/make-noise-dpo
+tags:
+  - dual/stereo
+  - oscillator
+  - waveshaper
+  - lfo
+current:
+  12pos: 70
+  12neg: 70
+  5pos: 0
+dimensions:
+  width: 28
+  height: 3
+  depth: 30
