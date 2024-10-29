@@ -1,0 +1,234 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/case
+name: The Black Case
+id: ELM-0002
+description: |
+  The Black Case is a transportable Eurorack modular synth case with a decent
+  amount of Eurorack modules plugged in. The module selection has evolved over
+  the years.
+
+usage: |
+  Multipurpose case, in SW's hands it has evolved to host a classic
+  VCO/FILTER/VCA voicing + sequencing system.
+
+aspect:
+  color: black
+  fabric: |
+    The case is made of wood, with classic flight case rough coating, a bit
+    heavy but resistant. Each 6U part can be used independently. More details
+    about the case can be found on [Arksine's website](https://arksine.tumblr.com/).
+
+specs:
+  psu: 2x Cincon-TTA, 100-240V, 2x 4.6A, with 2x IEC C13 <> FR cables
+  eurorack_width: 84HP
+  eurorack_height: 4x 3U (6U + 6U)
+  eurorack_powerbus: |
+    2x [2HP Zeus Access](https://www.modulargrid.net/e/tiptop-audio-zeus-access)
+    + 2x [Zeus Studio Bus DC800](https://tiptopaudio.com/zeus-studio-bus/)
+
+modulargrid: https://www.modulargrid.net/e/racks/view/2015824
+
+history:
+  - date: 2015-10-27
+    description: |
+      A picture of a black box with unknown content is
+      [posted](https://www.facebook.com/938663699559839/photos/a.938703796222496/940987359327473/)
+      on Arksine's social network page. The box seems to have been made for an
+      operator called NEMOCAINE. Further research seems to indicate that the
+      operator is also known as MODGEIST.
+
+      ![The Black case on a desk with building hardware](2015-10-27.fb.arksine.build.jpg)
+      ![A screenshot of the 2015 post](2015-10-27.fb.arksine.buildpost.jpg)
+
+  - date: 2015-11-11
+    description: |
+      A mysterious meeting occurs in a french airport. A picture found on social
+      networks seem to indicate this could be a transaction between Modgeist and
+      Arksine.
+
+      ![Transaction](2015-11-11.fb.arksine.transaction.jpg)
+      ![Transaction Post](2015-11-11.fb.arksine.transactionpost.jpg)
+
+  - date: 2016-?
+    description: |
+      Ulterior research confirm that Modgeist is in possession of the black box
+      and extensively using it. It's purpose is to store and power electronic
+      components producing sound transmissions and lights. People seem to react
+      positively to those transmissions, and the box was moved to multiple gigs,
+      including outside of France.
+
+  - date: 2016-12-14
+    description: |
+      A year later, B.O.M. surveillance networks log an online chat between
+      Modgeist and SCHEMATiC WiZARD, the subject seems to be the acquisition of
+      an empty [Eurorack](https://en.wikipedia.org/wiki/Eurorack) case.
+
+      Full archives are missing, but B.O.M. reports indicate that Modgeist had
+      ask Arksine to build another black case, a bigger one, and the former had
+      to be sold. A meeting between Modgeist and SW is planned for the next
+      month.
+
+  - date: 2017-01-07
+    description: |
+      Buying transaction between Modgeist and SW. SW reports this transaction to
+      be his "first introduction to the modular world". A picture was posted on
+      social networks a few hours later.
+
+      ![Picture of the empty black case by SW](2017-01-07.sw.emptycase.jpg)
+
+  - date: 2017-02-14
+    description: |
+      A month later, a first Eurorack module is plugged to the black Eurorack
+      case:
+      A [Pingable Envelope Generator](https://4mscompany.com/peg.php) (4ms)
+
+  - date: 2017-02-19
+    description: |
+      5 days later, a second module is plugged into the case, a wavetable sound
+      source
+      [Braids](https://pichenettes.github.io/mutable-instruments-documentation/modules/braids/)
+      (Mutable Instruments), bought from operator
+      [Holmia](https://soundcloud.com/holmia)). Used in combination with a MS-20
+      mini to fill the gaps (missing VCA and VCF), the experience is described
+      as "life changing" by SW, as he witnesses the 0-12V current flow
+      triggering modules and propagating audio transmissions across the
+      hardware. The sound was described as "raw, intense, beefy", with textures
+      that SW has never heard live before.
+
+      A testing sandbox was dropped as a livestream on Youtube, where the
+      transmission can still be watched and listened to if you own the link.
+
+      `[EDIT]`: The link has been found in the B.O.M. archives,
+      [sw_teststream](https://www.youtube.com/watch?v=6aDBSkdGnxE)
+
+      See `[REDACTED]` for more information.
+
+versions:
+  v4.1.0:
+    date: 2024-10-29
+    images:
+      - kind: modulargrid
+        url: 2024-10-29.modulargrid.ELM-0002_v4.1.0.jpg
+    changelog: |
+      Nerdseq's More CV 16 expander is awesome. Operator bought a second one.
+      The idea now is to control RTF-0001 with external MIDI messages and make
+      accessible a lot of automation settings.
+
+      Moving Tiptop Audio Zeus power switch to bottom row to make things fit.
+
+  v4.0.1:
+    date: 2024-04-05
+    images:
+      - kind: modulargrid
+        url: 2024-04-05.modulargrid.ELM-0002_v4.0.1.jpg
+    changelog: |
+      Teensy LC being almost impossible to acquire in 2024 due to shortage of
+      it's core chip (see [pjrc](https://www.pjrc.com/store/teensylc.html)), at
+      least for a price inferior to the one of a brand new module, op prefered
+      to acquire another full Sweet Sixteen MK2, factory made this time.
+
+  v4.0.0:
+    date: 2024-03-30
+    images:
+      - kind: modulargrid
+        url: 2024-03-30.modulargrid.ELM-0002_v4.0.0.jpg
+    changelog: |
+      This is the beginning of a new era thanks to the implementation of i2c in
+      Nerdseq and the new programmable mappings.
+
+      Full i2c support. Introduction of new tactile control interfaces with two
+      Gliss by Bela. Bringing back O_C and Precision added instead of Voltage
+      Block for "control random" opportunities.
+
+      Sadly, current operator bricked the outdated Sweet Sixteen's Teensy LC due
+      to poor firmware choice and/or bad soldering. i2c with NerdSEQ expander
+      didn't work. The sweet sixteen analog features still work but no
+      USB/Midi/i2c communication is possible. Teensy LC has been removed and
+      kept aside. A new Teensy LC has been ordered on a Chinese reseller's
+      website for an unspeakable price.
+
+      - Upgrade Nerdseq to V2.01A
+      - Upgrade Ornament & Crime (x2) Hemisphere Suite to Phazerville Suite 1.7
+
+</p></details>
+
+<details><summary><h3>v4.0.0-alpha1 (2023-08-29 -> 2024-03-30)</h3></summary><p>
+
+**CHANGELOG:**
+
+Preparing a new era thanks to the future i2c support in Nerdseq and the new
+programmable mappings.
+
+- Remove Erica Synths Pico DSP
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Ornament & Crime
+- Remove Intellijel µScale
+- Remove Doepfer A-185-2 (Precision Adder)
+- Add Erica Synths Pico Drums
+- Add Tesseract Modular Sweet Sixteen Mk2 DIY
+- Upgrade Nerdseq to 1.28beta2
+
+Getting ready for a new Nerseq Multi IO-Expander, previous expander is
+used for the time being, without i2c support.
+
+![Modulargrid v4.0.0-alpha1](2023-08-29.modulargrid.ELM-0002_v4.0.0-alpha1.jpg)
+</p></details>
+
+
+<details><summary><h3>v3.0.1 (2023-07-20 -> 2023-08-29)</h3></summary><p>
+
+**CHANGELOG:**
+
+- Remove 2HP Rnd v2
+- Remove Doepfer A-180-2
+- Add Xaoc Kamieniec
+
+![Modulargrid v3.0.1](2023-07-20.modulargrid.ELM-0002_v3.0.1.jpg)
+</p></details>
+
+
+<details><summary><h3>v3.0.0 (2023-06-20 -> 2023-07-20)</h3></summary><p>
+
+**CHANGELOG:**
+
+- Remove Music Thing Modular London Drive DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Music Thing Modular Twin Drive DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Erica Synths Pico Drums
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove DivKid Mutes (1) DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove DivKid Mutes (2) DIY
+  *--> move to [ELM-0004](../ELM-0004/README.md)*
+- Remove Music Thing Modular Turing Machine MkII DIY
+- Remove Music Thing Modular Pulses DIY
+- Add 1010music Bitbox Micro
+- Add Erica Synths Pico DSP
+
+![Modulargrid v3.0.0](2023-06-20.modulargrid.ELM-0002_v3.0.0.jpg)
+</p></details>
+
+
+<details><summary><h3>v2.5.0 (2023-01-07 -> 2023-06-20)</h3></summary><p>
+
+**CHANGELOG:**
+
+- Add Music Thing Modular Twin Drive DIY
+- Add Music Thing Modular London Drive DIY
+
+![Modulargrid v2.5.0](2023-01-07.modulargrid.ELM-0002_v2.5.0.jpg)
+</p></details>
+
+
+<details><summary><h3>v2.4.0 (2022-12-10 -> 2023-01-07)</h3></summary><p>
+
+**CHANGELOG:**
+
+- Remove Make Noise DPO
+- Remove Robaux SWT16+
+- Add Rossum Electro-Music Trident
+- Add Doepfer A-180-2
+- Add Intellijel µScale
+
