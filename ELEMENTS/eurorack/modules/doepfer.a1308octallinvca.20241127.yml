@@ -1,16 +1,17 @@
 ---
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
-modulespec: mutableinstruments.links
+modulespec: doepfer.a1308octallinvca
 aspect:
   color: white
 events:
-  - date: 2017-04-03
+  - date: 2024-11-27
     kind: buy
     source: retail (thomann)
-    destination: ELM-0002
+    destination: transit
+    price: 105
 
   - date: 2024-12-06
     kind: move
-    source: ELM-0002
-    destination: storage
+    source: transit
+    destination: ELM-0002

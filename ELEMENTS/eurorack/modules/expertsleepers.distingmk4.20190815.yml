@@ -10,3 +10,8 @@ events:
     source: operator (Marc Debroey - SEBASTOPOLmusic (BE))
     destination: ELM-0002
     price: 125
+
+  - date: 2024-12-06
+    kind: move
+    source: ELM-0002
+    destination: storage
