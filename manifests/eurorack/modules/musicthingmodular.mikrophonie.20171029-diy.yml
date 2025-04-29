@@ -1,0 +1,50 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: musicthingmodular.mikrophonie
+aspect:
+  color: black
+diy: true
+events:
+  - date: 2017-10-29
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 40
+
+  - date: 2017-11-20
+    kind: build
+    build_operator: schematicwizard
+    build_duration: 2h
+    build_result: success
+
+  - date: 2017-11-20
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2020-12-20
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-08-10
+    kind: lend-out
+    source: ELM-0002
+    destination: operator (anee molly)
+
+  - date: 2022-11-24
+    kind: lend-in
+    source: operator (anee molly)
+    destination: storage
+
+  - date: 2023-01-07
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2024-03-30
+    kind: move
+    source: ELM-0002
+    destination: storage
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://billofmaterials.art/schemas/v1/eurorack/module.json",
+  "title": "billofmaterials - Eurorack Module Instance",
+  "description": "Schema for B.O.M. Eurorack Module Instances",
+  "type": "object",
+  "required": [
+    "apiVersion",
+    "kind",
+    "modulespec",
+    "aspect",
+    "events"
+  ],
+  "properties": {
+    "apiVersion": {
+      "type": "string",
+      "const": "billofmaterials.art/v1",
+      "description": "API version identifier"
+    },
+    "kind": {
+      "type": "string",
+      "const": "eurorack/module",
+      "description": "Resource kind"
+    },
+    "modulespec": {
+      "type": "string",
+      "description": "Reference to eurorack/modulespec"
+    },
+    "diy": {
+      "type": "boolean",
+      "description": "True if module was built DIY"
+    },
+    "aspect": {
+      "type": "object",
+      "description": "Visual attributes of the module",
+      "required": [
+        "color"
+      ],
+      "properties": {
+        "color": {
+          "type": "string",
+          "description": "Faceplate color",
+          "enum": [
+            "black",
+            "white",
+            "wood"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "description": "Purchase event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination",
+              "price"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "buy"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Movement event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "move"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Build event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "build_operator",
+              "build_duration",
+              "build_result"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "build"
+              },
+              "build_operator": {
+                "type": "string"
+              },
+              "build_duration": {
+                "type": "string"
+              },
+              "build_result": {
+                "type": "string"
+              },
+              "build_notes": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Failure event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "failure_notes"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "failure"
+              },
+              "failure_notes": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Trade-in event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination",
+              "price"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "trade-in"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Trade-out event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination",
+              "price"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "trade-out"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Sell event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination",
+              "price"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "sell"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              },
+              "price": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Lend-out event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "lend-out"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          {
+            "description": "Lend-in event",
+            "type": "object",
+            "required": [
+              "date",
+              "kind",
+              "source",
+              "destination"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "kind": {
+                "const": "lend-in"
+              },
+              "source": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Filter 8
+company: Joranalogue
+description: |
+  A versatile multi-mode filter module that offers eight different filter characteristics, allowing for creative sound shaping and manipulation.
+url: https://modulargrid.net/e/joranalogue-audio-design-filter-8
+tags:
+  - filter
+power:
+  12pos: 75
+  12neg: 75
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 30
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

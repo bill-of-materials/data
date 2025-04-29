@@ -1,0 +1,21 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Trident
+altNames:
+  - Triton
+company: Rossum Electro-Music
+description: |
+  Multi-Synchronic Triple Analog Oscillator Ensemble. Also named Triton.
+url: https://modulargrid.net/e/rossum-electro-music-triton
+tags:
+  - oscillator
+power:
+  12pos: 290
+  12neg: 270
+  5pos: 0
+dimensions:
+  width: 30
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

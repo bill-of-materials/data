@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Belgrad
+company: Xaoc Devices
+description: |
+  1976 Dual Peak Multimode State Variable Filter
+url: https://modulargrid.net/e/xaoc-devices-belgrad
+tags:
+  - filter
+  - oscillator
+power:
+  12pos: 45
+  12neg: 42
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 20
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

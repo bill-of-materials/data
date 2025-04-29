@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: mutableinstruments.elements
+aspect:
+  color: white
+events:
+  - date: 2018-03-15
+    kind: buy
+    source: operator (Giulio Giadrossi (Trieste, IT))
+    destination: ELM-0002
+    price: 350
+
+  - date: 2020-11-11
+    kind: sell
+    source: ELM-0002
+    destination: operator (Hugo Le Pottier (FR))
+    price: 350
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,0 +1,23 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: makenoise.dpo
+aspect:
+  color: white
+events:
+  - date: 2017-05-18
+    kind: buy
+    source: operator (Raphaël Curt)
+    destination: ELM-0002
+    price: 515
+
+  - date: 2022-11-26
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2023-08-01
+    kind: sell
+    source: storage
+    destination: operator (inspecteurlastreet)
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

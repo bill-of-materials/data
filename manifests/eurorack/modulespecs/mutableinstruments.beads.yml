@@ -1,0 +1,25 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Beads
+company: Mutable Instruments
+description: |
+  Texture synthesizer / granular processor that allows you to manipulate audio
+  samples and create complex textures and rhythms.
+url: https://modulargrid.net/e/mutable-instruments-beads
+tags:
+  - delay
+  - digital
+  - dual/stereo
+  - effect
+  - random
+  - reverb
+power:
+  12pos: 100
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

@@ -1,0 +1,23 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: doepfer.a124wasp
+aspect:
+  color: black
+events:
+  - date: 2020-11-26
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002
+    price: 83
+
+  - date: 2022-04-03
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,0 +1,13 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: expertsleepers.es8
+aspect:
+  color: black
+events:
+  - date: 2020-11-11
+    kind: buy
+    source: retail (signalsound)
+    destination: ELM-0002
+    price: 462
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

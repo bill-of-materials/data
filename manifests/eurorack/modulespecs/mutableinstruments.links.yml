@@ -1,0 +1,21 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Links
+company: Mutable Instruments
+description: |
+  A utility module that provides multiple signal distribution options, allowing
+  you to easily split, mix, and route audio and CV signals.
+url: https://modulargrid.net/e/mutable-instruments-links
+tags:
+  - mixer
+  - multiple
+power:
+  12pos: 15
+  12neg: 15
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 20
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

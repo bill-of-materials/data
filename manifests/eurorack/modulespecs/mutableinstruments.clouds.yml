@@ -1,0 +1,24 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Clouds
+company: Mutable Instruments
+description: |
+  A granular processor that enables real-time manipulation of audio samples,
+  providing various modes for sound transformation and texture creation.
+url: https://modulargrid.net/e/mutable-instruments-clouds
+tags:
+  - effects
+  - delay
+  - digital
+  - pitch shifter
+  - sampling
+power:
+  12pos: 120
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 18
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

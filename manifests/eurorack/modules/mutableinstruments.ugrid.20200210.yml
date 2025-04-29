@@ -1,0 +1,24 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: mutableinstruments.ugrid
+aspect:
+  color: black
+events:
+  - date: 2020-02-10
+    kind: buy
+    source: operator (Noël Spatola (FR))
+    destination: ELM-0002
+    price: 150
+
+  - date: 2020-12-20
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-02-09
+    kind: sell
+    source: storage
+    destination: operator (Christophe Frot (FR))
+    price: 115
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

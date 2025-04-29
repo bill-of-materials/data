@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: 1uO_c 4ROBOTS
+company: Plum Audio
+description: |
+  The first Ornament and Crime with VOR System. Ornament and Crime is a "Swiss
+  army knife" now for Intellijel 1U format.
+url: https://modulargrid.net/e/plum-audio-1uo-c-4robots
+tags:
+  - cv modulation
+  - digital
+  - utility
+power:
+  12pos: 40
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 30
+  height: 1
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

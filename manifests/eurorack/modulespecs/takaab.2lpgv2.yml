@@ -1,0 +1,23 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: 2LPG v2
+company: Takaab
+description: |
+  A dual low-pass gate that provides an expressive way to shape your sound
+  through volume and filter control.
+url: https://modulargrid.net/e/takaab-2lpg-v2
+tags:
+  - dual/stereo
+  - low pass gate
+  - vca
+power:
+  12pos: 0
+  12neg: 0
+  5pos: 0
+  kind: passive
+dimensions:
+  width: 2
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

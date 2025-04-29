@@ -1,0 +1,24 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: bastl.ciao
+aspect:
+  color: wood
+events:
+  - date: 2017-05-27
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 109
+
+  - date: 2021-07-24
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-08-10
+    kind: sell
+    source: storage
+    destination: operator (anee molly)
+    price: 85
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

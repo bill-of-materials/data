@@ -1,0 +1,26 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Fuzz Factory
+company: ZVEX Modular
+description: |
+  A unique fuzz distortion module that offers a wide range of tonal
+  possibilities, featuring interactive controls that shape the distortion effect
+  in real-time.
+url: https://modulargrid.net/e/zvex-fuzz-factory
+tags:
+  - distortion
+  - effects
+  - filter
+  - fuzz
+  - noise
+  - preamp
+power:
+  12pos: 80
+  12neg: 40
+  5pos: 0
+dimensions:
+  width: 14
+  height: 3
+  depth: 26
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

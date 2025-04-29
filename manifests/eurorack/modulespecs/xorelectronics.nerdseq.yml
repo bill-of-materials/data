@@ -1,0 +1,26 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Nerdseq
+company: XOR Electronics
+description: |
+  A powerful and flexible tracker sequencer that allows for detailed control
+  over musical sequences and patterns in a modular synthesizer environment.
+url: https://modulargrid.net/e/xor-electronics-nerdseq-black-aluminium-front
+tags:
+  - clock modulator
+  - cv modulation
+  - envelope generator
+  - lfo
+  - sampling
+  - sequencer
+  - synth voice
+power:
+  12pos: 150
+  12neg: 40
+  5pos: 0
+dimensions:
+  width: 32
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

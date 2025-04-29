@@ -1,0 +1,13 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: ericasynths.picoinput
+aspect:
+  color: black
+events:
+  - date: 2023-08-29
+    kind: buy
+    source: retail (voltmusicstore (NL))
+    destination: ELM-0002
+    price: 70
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

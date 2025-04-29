@@ -1,0 +1,28 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: zvexmodular.fuzzfactory
+aspect:
+  color: white
+events:
+  - date: 2017-08-12
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 329
+
+  - date: 2022-04-01
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-11-06
+    kind: move
+    source: ELM-0002
+    destination: storage
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,0 +1,35 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: musicthingmodular.londondrive
+aspect:
+  color: black
+diy: true
+events:
+  - date: 2023-01-04
+    kind: buy
+    source: retail (thonk)
+    destination: storage
+    price: 61
+
+  - date: 2023-01-07
+    kind: build
+    build_operator: schematicwizard
+    build_result: success
+    build_duration: 1h
+
+  - date: 2023-01-07
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2023-06-20
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
+
+  - date: 2024-07-15
+    kind: move
+    source: ELM-0004
+    destination: storage
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

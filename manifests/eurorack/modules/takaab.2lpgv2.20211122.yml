@@ -1,0 +1,23 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: takaab.2lpgv2
+aspect:
+  color: black
+events:
+  - date: 2021-11-22
+    kind: buy
+    source: retail (takaab)
+    destination: floating
+    price: 32
+
+  - date: 2021-12-23
+    kind: move
+    source: floating
+    destination: ELM-0002
+
+  - date: 2024-03-30
+    kind: move
+    source: ELM-0002
+    destination: storage
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

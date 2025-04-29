@@ -1,0 +1,24 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Hexmix
+company: Befaco
+description: |
+  6-channel performance mixer with EQs mutes and Pan
+url: https://modulargrid.net/e/befaco-hexmix
+tags:
+  - equalizer
+  - mixer
+  - panning
+  - utility
+  - dual/stereo
+  - external
+power:
+  12pos: 106
+  12neg: 88
+  5pos: 0
+dimensions:
+  width: 28
+  height: 3
+  depth: 27
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

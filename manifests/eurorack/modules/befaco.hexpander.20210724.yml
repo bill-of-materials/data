@@ -1,0 +1,28 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: befaco.hexpander
+aspect:
+  color: black
+events:
+  - date: 2021-07-24
+    kind: buy
+    source: retail (thomann)
+    destination: ELM-0002
+    price: 349
+
+  - date: 2021-12-23
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-10-28
+    kind: move
+    source: ELM-0002
+    destination: ELM-0004
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,0 +1,24 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Plaits
+company: Mutable Instruments
+description: |
+  A macro-oscillator module that offers a range of synthesis models and full
+  voice including filter, vca and envelope
+url: https://modulargrid.net/e/mutable-instruments-plaits
+tags:
+  - oscillator
+  - digital
+  - drum
+  - noise
+  - synth voice
+power:
+  12pos: 50
+  12neg: 5
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

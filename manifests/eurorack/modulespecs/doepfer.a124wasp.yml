@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: A-124 SE VCF5 (Wasp Filter)
+company: Doepfer
+description: |
+  Wasp 12dB/oct Multimode Filter (Special Edition)
+url: https://modulargrid.net/e/doepfer-a-124-se
+tags:
+  - filter
+power:
+  12pos: 30
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 8
+  height: 3
+  depth: 45
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

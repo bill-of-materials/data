@@ -1,0 +1,19 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: A-103 VCF6 (Low Pass Filter)
+company: Doepfer
+description: |
+  18dB Low Pass Filter (TB-303 type)
+url: https://modulargrid.net/e/doepfer-a-103
+tags:
+  - filter
+power:
+  12pos: 30
+  12neg: 10
+  5pos: 0
+dimensions:
+  width: 8
+  height: 3
+  depth: 55
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

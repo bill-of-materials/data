@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://billofmaterials.art/schemas/v1/eurorack/modulespec.json",
+  "title": "billofmaterials - Eurorack Module Spec",
+  "description": "Schema for B.O.M. Eurorack Module Specication",
+  "type": "object",
+  "required": [
+    "apiVersion",
+    "kind",
+    "name",
+    "company",
+    "description",
+    "url",
+    "tags",
+    "power",
+    "dimensions"
+  ],
+  "properties": {
+    "apiVersion": {
+      "type": "string",
+      "const": "billofmaterials.art/v1",
+      "description": "API version identifier"
+    },
+    "kind": {
+      "type": "string",
+      "const": "eurorack/modulespec",
+      "description": "Resource kind"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable module name"
+    },
+    "altNames": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Human-readable module alternative names"
+    },
+    "company": {
+      "type": "string",
+      "description": "Manufacturer name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Reference URL (e.g., ModularGrid)"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Functional tags describing the module"
+    },
+    "power": {
+      "type": "object",
+      "description": "Power consumption (mA) per rail",
+      "required": [
+        "12pos",
+        "12neg",
+        "5pos"
+      ],
+      "properties": {
+        "12pos": {
+          "type": "number",
+          "minimum": 0
+        },
+        "12neg": {
+          "type": "number",
+          "minimum": 0
+        },
+        "5pos": {
+          "type": "number",
+          "minimum": 0
+        },
+        "5neg": {
+          "type": "number",
+          "minimum": 0
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "daisy",
+            "passive"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "type": "object",
+      "description": "Physical dimensions (width in HP, height, depth in mm)",
+      "required": [
+        "width",
+        "height",
+        "depth"
+      ],
+      "properties": {
+        "width": {
+          "type": "number",
+          "minimum": 2
+        },
+        "height": {
+          "type": "number",
+          "enum": [
+            1,
+            3
+          ]
+        },
+        "depth": {
+          "type": "number",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

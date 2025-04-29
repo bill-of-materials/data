@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: A-180-2
+company: Doepfer
+description: |
+  Passive multiple
+url: https://modulargrid.net/e/doepfer-a-180-2-multiples
+tags:
+  - multiple
+  - utility
+  - dual/stereo
+power:
+  12pos: 0
+  12neg: 0
+  5pos: 0
+  kind: passive
+dimensions:
+  width: 2
+  height: 3
+  depth: 18
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

@@ -1,0 +1,20 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Aperture
+company: WMD
+description: |
+  Variable Width Bandpass Filter
+url: https://modulargrid.net/e/wmd-aperture-
+tags:
+  - filter
+  - feedback
+power:
+  12pos: 120
+  12neg: 100
+  5pos: 0
+dimensions:
+  width: 12
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

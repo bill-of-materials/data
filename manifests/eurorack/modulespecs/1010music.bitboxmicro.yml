@@ -1,0 +1,26 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Bitbox Micro
+company: 1010music
+description: |
+  A compact audio sampler that allows you to record, play, and manipulate
+  samples in real-time, designed for live performance.
+url: https://modulargrid.net/e/1010-music-bitbox-micro--
+tags:
+  - clock generator
+  - controller
+  - digital
+  - drum
+  - dual/stereo
+  - midi
+  - sampling
+power:
+  12pos: 400
+  12neg: 0
+  5pos: 0
+dimensions:
+  width: 18
+  height: 3
+  depth: 32
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

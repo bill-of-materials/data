@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Twin Drive
+company: Music Thing Modular
+description: |
+  Stereo version of the MTM distortion mini Drive
+url: https://modulargrid.net/e/music-thing-modular-twin-drive
+tags:
+  - distortion
+  - dual/stereo
+  - effect
+  - waveshaper
+power:
+  12pos: 82
+  12neg: 6
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 25
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

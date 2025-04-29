@@ -1,0 +1,33 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/module
+modulespec: makenoise.maths
+aspect:
+  color: white
+events:
+  - date: 2019-02-05
+    kind: buy
+    source: retail (modularsquare)
+    destination: ELM-0002
+    price: 294
+
+  - date: 2021-07-24
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2021-12-23
+    kind: move
+    source: storage
+    destination: ELM-0002
+
+  - date: 2022-04-03
+    kind: move
+    source: ELM-0002
+    destination: storage
+
+  - date: 2022-06-03
+    kind: move
+    source: storage
+    destination: ELM-0002
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

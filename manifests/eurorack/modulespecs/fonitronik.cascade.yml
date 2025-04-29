@@ -1,0 +1,23 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Cascade
+company: fonitronik
+description: |
+  Triple attenuverter/mixer/offset
+url: https://modulargrid.net/e/fonitronik-cascade
+tags:
+  - attenuator
+  - mixer
+  - polarizer
+  - utility
+  - distortion
+power:
+  12pos: 28
+  12neg: 23
+  5pos: 0
+dimensions:
+  width: 4
+  height: 3
+  depth: 66
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

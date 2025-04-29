@@ -1,0 +1,22 @@
+---
+apiVersion: billofmaterials.art/v1
+kind: eurorack/modulespec
+name: Rnd v2
+company: 2hp
+description: |
+  A random voltage generator that produces smooth, continuous random voltages,
+  perfect for adding unpredictability to your patches.
+url: https://modulargrid.net/e/2hp-rnd-v2
+tags:
+  - clock generator
+  - cv modulation
+  - random
+power:
+  12pos: 48
+  12neg: 6
+  5pos: 0
+dimensions:
+  width: 2
+  height: 3
+  depth: 42
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json
