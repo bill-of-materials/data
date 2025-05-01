@@ -20,4 +20,5 @@ events:
     kind: sell
     source: storage
     destination: operator (inspecteurlastreet)
+    price: 400
 # yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

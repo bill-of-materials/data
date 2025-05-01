@@ -177,7 +177,7 @@
               "kind",
               "source",
               "destination",
-              "price"
+              "trade_with"
             ],
             "properties": {
               "date": {
@@ -193,8 +193,8 @@
               "destination": {
                 "type": "string"
               },
-              "price": {
-                "type": "number"
+              "trade_with": {
+                "type": "array"
               }
             },
             "additionalProperties": false
@@ -207,7 +207,7 @@
               "kind",
               "source",
               "destination",
-              "price"
+              "trade_with"
             ],
             "properties": {
               "date": {
@@ -223,8 +223,8 @@
               "destination": {
                 "type": "string"
               },
-              "price": {
-                "type": "number"
+              "trade_with": {
+                "type": "array"
               }
             },
             "additionalProperties": false

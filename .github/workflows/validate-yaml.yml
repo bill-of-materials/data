@@ -1,0 +1,44 @@
+---
+name: validate-yaml
+
+on:
+  pull_request:
+    paths:
+      - '**/*.yaml'
+      - '**/*.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-validate-yaml
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: lint
+      cancel-in-progress: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint YAML files
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config-file: .yamllint.yml
+          format: github
+          strict: true
+
+  validate-schemas:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: validate-schemas
+      cancel-in-progress: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate YAML Schemas
+        uses: InoUno/yaml-ls-check@develop
+        with:
+          repository: nmss/yaml-ls-check
+          ref: fix-embedded-schema-path
