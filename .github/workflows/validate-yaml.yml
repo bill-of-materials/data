@@ -39,6 +39,3 @@ jobs:
 
       - name: Validate YAML Schemas
         uses: InoUno/yaml-ls-check@develop
-        with:
-          repository: nmss/yaml-ls-check
-          ref: fix-embedded-schema-path
