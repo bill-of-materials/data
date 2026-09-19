@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: intellijel.switchedmultiple
@@ -30,4 +30,3 @@ events:
     kind: move
     source: ELM-0004
     destination: storage
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: tesseractmodular.sweetsixteenmk2
@@ -48,4 +48,3 @@ events:
     kind: lend-out
     source: storage
     destination: operator (inspecteurlastreet)
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

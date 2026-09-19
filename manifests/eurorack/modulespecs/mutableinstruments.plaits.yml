@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/modulespec
 name: Plaits
@@ -21,4 +21,3 @@ dimensions:
   width: 12
   height: 3
   depth: 25
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: plumaudio.1uoc
@@ -10,4 +10,3 @@ events:
     source: retail (elevatorsound)
     destination: ELM-0004
     price: 365
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

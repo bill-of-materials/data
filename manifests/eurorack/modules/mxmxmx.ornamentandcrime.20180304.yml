@@ -1,4 +1,3 @@
----
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: mxmxmx.ornamentandcrime

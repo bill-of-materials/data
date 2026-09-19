@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: befaco.outv3
@@ -21,4 +21,3 @@ events:
     kind: move
     source: storage
     destination: ELM-0004
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

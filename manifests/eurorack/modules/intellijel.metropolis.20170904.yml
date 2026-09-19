@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: intellijel.metropolis
@@ -27,4 +27,3 @@ events:
     source: ELM-0002
     destination: operator (Jérôme Brunet (FR))
     price: 450
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

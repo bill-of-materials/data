@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/modulespec
 name: Switched Multiple
@@ -20,4 +20,3 @@ dimensions:
   width: 14
   height: 1
   depth: 18
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json

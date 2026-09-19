@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/module
 modulespec: alrightdevices.chronoblob2
@@ -10,4 +10,3 @@ events:
     source: operator (Marc Debroey - SEBASTOPOLmusic (BE))
     destination: ELM-0004
     price: 280
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/module.json

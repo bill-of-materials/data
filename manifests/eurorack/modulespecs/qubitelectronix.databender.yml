@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json
 apiVersion: billofmaterials.art/v1
 kind: eurorack/modulespec
 name: Data Bender
@@ -20,4 +20,3 @@ dimensions:
   width: 14
   height: 3
   depth: 28
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/eurorack/modulespec.json
