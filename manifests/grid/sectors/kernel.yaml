@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/grid/sector.json
+apiVersion: billofmaterials.art/v1
+kind: grid/sector
+metadata:
+  name: Kernel
+  shortName: krl
+  company: "[redacted]"
+  kind: facility
+  location:
+    address: |
+      "[redacted]"
+    city: "[redacted]"
+    region: Bretagne
+    country: France
+events:
+  - kind: activityStart
+    date: 2025-08-01

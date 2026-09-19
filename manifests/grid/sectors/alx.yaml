@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/grid/sector.json
+apiVersion: billofmaterials.art/v1
+kind: grid/sector
+metadata:
+  name: Alx Agency
+  shortName: alx
+  company: "[redacted]"
+  kind: agency
+  altNames:
+    - crimee
+  location:
+    address: |
+      "[redacted]"
+    city: Paris
+    region: Ile-de-France
+    country: France
+events:
+  - kind: activityStart
+    date: 2018-09-01
+  - kind: activityEnd
+    date: 2026-10-07

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/grid/sector.json
+apiVersion: billofmaterials.art/v1
+kind: grid/sector
+metadata:
+  name: Radio France, Maison de la Radio et de la Musique
+  shortName: mrf
+  company: Radio France
+  kind: facility
+  location:
+    address: |
+      Radio France, Maison de la Radio et de la Musique
+      116 avenue du Président Kennedy
+      75016 Paris 16, France
+    city: Paris
+    region: Ile-de-France
+    country: France
+events:
+  - kind: activityStart
+    date: 2018-12-01
