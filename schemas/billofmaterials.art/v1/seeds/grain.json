@@ -1,0 +1,744 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://billofmaterials.art/schemas/v1/seeds/grain.json",
+  "title": "billofmaterials - Coffee grains",
+  "description": "Schema for B.O.M. Coffee Grain Instance with flattened per-basket and per-profile constraints (single or double basket only) and full hover descriptions",
+  "type": "object",
+  "required": [
+    "apiVersion",
+    "kind",
+    "name",
+    "brand",
+    "tags",
+    "adjectives",
+    "bio",
+    "acidity",
+    "body",
+    "roasting",
+    "description",
+    "countries",
+    "ingredients",
+    "events",
+    "best_settings"
+  ],
+  "properties": {
+    "apiVersion": {
+      "const": "billofmaterials.art/v1",
+      "description": "API version of this coffee grain schema"
+    },
+    "kind": {
+      "const": "seeds/grain",
+      "description": "Type of this object, e.g., 'seeds/grain'"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the coffee"
+    },
+    "brand": {
+      "type": "string",
+      "description": "Brand or roastery"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for categorizing the coffee"
+    },
+    "adjectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Flavor adjectives"
+    },
+    "acidity": {
+      "type": "string",
+      "description": "Acidity"
+    },
+    "body": {
+      "type": "string",
+      "description": "Body"
+    },
+    "roasting": {
+      "type": "string",
+      "description": "Roasting method"
+    },
+    "harvest": {
+      "type": "string",
+      "description": "Harvest date"
+    },
+    "bio": {
+      "default": false,
+      "type": "boolean",
+      "description": "Indicates if coffee is organic"
+    },
+    "process": {
+      "type": "array",
+      "description": "Drying process",
+      "items": {
+        "type": "string",
+        "enum": [
+          "anaérobie",
+          "hybride",
+          "lavé",
+          "naturel",
+          "white honey"
+        ]
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Long description of the coffee"
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Origin countries of the coffee beans"
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Blend composition, e.g., '60% Kirigu, Kenya'"
+    },
+    "producers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Coffee producers"
+    },
+    "score": {
+      "default": 80,
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Specialty Coffee Association of America (SCA) score"
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "contains": {
+        "$ref": "#/$defs/eventBuy"
+      },
+      "items": {
+        "$ref": "#/$defs/event"
+      },
+      "description": "Chronological events for this coffee (buy, roast, open, cup tasting, end)"
+    },
+    "best_settings": {
+      "type": "object",
+      "minItems": 1,
+      "description": "Best extraction settings per basket and profile",
+      "properties": {
+        "expresso": {
+          "type": "object",
+          "properties": {
+            "51mm": {
+              "$ref": "#/$defs/basketProfiles"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "basketProfiles": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Defines basket settings, either 'single' or 'double', only one required",
+      "properties": {
+        "single": {
+          "$ref": "#/$defs/profilesSingle"
+        },
+        "double": {
+          "$ref": "#/$defs/profilesDouble"
+        }
+      },
+      "additionalProperties": false
+    },
+    "profilesSingle": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Profiles for a single basket/filter",
+      "properties": {
+        "regular": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "cup",
+            "time"
+          ],
+          "description": "Single regular espresso",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 10,
+              "type": "number",
+              "minimum": 8,
+              "maximum": 11,
+              "description": "Coffee weight in grams (8-11g)"
+            },
+            "time": {
+              "default": 28,
+              "type": "number",
+              "minimum": 25,
+              "maximum": 30,
+              "description": "Extraction time in seconds (25-30s)"
+            },
+            "cup": {
+              "default": 22,
+              "type": "number",
+              "minimum": 16,
+              "maximum": 22,
+              "description": "Target espresso volume in mL (16-22mL), approx ratio 1:2"
+            }
+          },
+          "additionalProperties": false
+        },
+        "lungo": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "cup",
+            "time"
+          ],
+          "description": "Single basket lungo profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 10,
+              "type": "number",
+              "minimum": 8,
+              "maximum": 11,
+              "description": "Coffee weight in grams (8-11g)"
+            },
+            "time": {
+              "default": 32,
+              "type": "number",
+              "minimum": 20,
+              "maximum": 35,
+              "description": "Extraction time in seconds (20-35s, suggested 30-35s)"
+            },
+            "cup": {
+              "default": 35,
+              "type": "number",
+              "minimum": 30,
+              "maximum": 100,
+              "description": "Target lungo volume in mL (30-100mL, suggested 30-40mL), ratio ~1:3"
+            }
+          },
+          "additionalProperties": false
+        },
+        "cappuccino": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "cup",
+            "time",
+            "milk"
+          ],
+          "description": "Single basket cappuccino profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 10,
+              "type": "number",
+              "minimum": 8,
+              "maximum": 11,
+              "description": "Coffee weight in grams (8-11g)"
+            },
+            "time": {
+              "default": 28,
+              "type": "number",
+              "minimum": 25,
+              "maximum": 30,
+              "description": "Extraction time in seconds (25-30s)"
+            },
+            "cup": {
+              "default": 22,
+              "type": "number",
+              "minimum": 16,
+              "maximum": 22,
+              "description": "Target espresso volume in mL (16-22mL), ratio ~1:2"
+            },
+            "milk": {
+              "default": 100,
+              "type": "number",
+              "minimum": 80,
+              "maximum": 120,
+              "description": "Milk volume in mL including foam (80-120mL)"
+            }
+          },
+          "additionalProperties": false
+        },
+        "latte_lungo": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "time",
+            "cup",
+            "milk"
+          ],
+          "description": "Single basket latte lungo profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 10,
+              "type": "number",
+              "minimum": 8,
+              "maximum": 11,
+              "description": "Coffee weight in grams (8-11g)"
+            },
+            "time": {
+              "default": 32,
+              "type": "number",
+              "minimum": 30,
+              "maximum": 35,
+              "description": "Extraction time in seconds (30-35s)"
+            },
+            "cup": {
+              "default": 35,
+              "type": "number",
+              "minimum": 30,
+              "maximum": 100,
+              "description": "Target volume in mL (30-100mL, suggested 30-40mL), ratio ~1:3"
+            },
+            "milk": {
+              "default": 120,
+              "type": "number",
+              "minimum": 100,
+              "maximum": 140,
+              "description": "Milk volume in mL including foam (100-140mL)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "profilesDouble": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "Profiles for a double basket (can include expresso, lungo, cappuccino, latte_lungo)",
+      "properties": {
+        "expresso": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "time",
+            "cup"
+          ],
+          "description": "Double basket espresso profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 15,
+              "type": "number",
+              "minimum": 12,
+              "maximum": 20,
+              "description": "Coffee weight in grams (12-20g, suggested 14-16g)"
+            },
+            "time": {
+              "default": 28,
+              "type": "number",
+              "minimum": 25,
+              "maximum": 30,
+              "description": "Extraction time in seconds (25-30s)"
+            },
+            "cup": {
+              "default": 30,
+              "type": "number",
+              "minimum": 28,
+              "maximum": 32,
+              "description": "Target espresso volume in mL (28-32mL), ratio ~1:2"
+            }
+          },
+          "additionalProperties": false
+        },
+        "lungo": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "time",
+            "cup"
+          ],
+          "description": "Double basket lungo profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 16,
+              "type": "number",
+              "minimum": 12,
+              "maximum": 20,
+              "description": "Coffee weight in grams (12-20g, suggested 14-16g)"
+            },
+            "time": {
+              "default": 35,
+              "type": "number",
+              "minimum": 20,
+              "maximum": 60,
+              "description": "Extraction time in seconds (20-60s, suggested 35-40s)"
+            },
+            "cup": {
+              "default": 48,
+              "type": "number",
+              "minimum": 30,
+              "maximum": 100,
+              "description": "Target lungo volume in mL (30-100mL, suggested 30-67mL), ratio ~1:3"
+            }
+          },
+          "additionalProperties": false
+        },
+        "cappuccino": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "time",
+            "cup",
+            "milk"
+          ],
+          "description": "Double basket cappuccino profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 15,
+              "type": "number",
+              "minimum": 12,
+              "maximum": 20,
+              "description": "Coffee weight in grams (12-20g, suggested 14-16g)"
+            },
+            "time": {
+              "default": 28,
+              "type": "number",
+              "minimum": 25,
+              "maximum": 30,
+              "description": "Extraction time in seconds (25-30s)"
+            },
+            "cup": {
+              "default": 30,
+              "type": "number",
+              "minimum": 28,
+              "maximum": 32,
+              "description": "Target espresso volume in mL (28-32mL), ratio ~1:2"
+            },
+            "milk": {
+              "default": 150,
+              "type": "number",
+              "minimum": 120,
+              "maximum": 180,
+              "description": "Milk volume in mL including foam (120-180mL)"
+            }
+          },
+          "additionalProperties": false
+        },
+        "latte_lungo": {
+          "type": "object",
+          "required": [
+            "grind",
+            "weight",
+            "time",
+            "cup",
+            "milk"
+          ],
+          "description": "Double basket latte lungo profile",
+          "properties": {
+            "grind": {
+              "default": 14,
+              "type": "number",
+              "minimum": 1,
+              "maximum": 30,
+              "description": "Grind setting (1-30mm, suggested 12-18mm)"
+            },
+            "weight": {
+              "default": 15,
+              "type": "number",
+              "minimum": 12,
+              "maximum": 20,
+              "description": "Coffee weight in grams (12-20g, suggested 14-16g)"
+            },
+            "time": {
+              "default": 38,
+              "type": "number",
+              "minimum": 20,
+              "maximum": 40,
+              "description": "Extraction time in seconds (20-40s, suggested 35-40s)"
+            },
+            "cup": {
+              "default": 55,
+              "type": "number",
+              "minimum": 50,
+              "maximum": 100,
+              "description": "Target volume in mL (50-100mL, suggested 50-60mL), ratio ~1:3"
+            },
+            "milk": {
+              "default": 175,
+              "type": "number",
+              "minimum": 150,
+              "maximum": 200,
+              "description": "Milk volume in mL including foam (150-200mL)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "event": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/eventBuy",
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "$ref": "#/$defs/eventRoast",
+          "minContains": 0,
+          "maxContains": 1
+        },
+        {
+          "$ref": "#/$defs/eventOpen",
+          "minContains": 0,
+          "maxContains": 1
+        },
+        {
+          "$ref": "#/$defs/eventCup"
+        },
+        {
+          "$ref": "#/$defs/eventEnd",
+          "minContains": 0,
+          "maxContains": 1
+        }
+      ]
+    },
+    "eventBuy": {
+      "description": "Purchase event",
+      "type": "object",
+      "required": [
+        "date",
+        "kind",
+        "source",
+        "price",
+        "quantity"
+      ],
+      "properties": {
+        "date": {
+          "default": "2026-12-31",
+          "type": "string",
+          "format": "date",
+          "description": "Date of purchase (YYYY-MM-DD)"
+        },
+        "kind": {
+          "const": "buy",
+          "description": "Event type = buy"
+        },
+        "source": {
+          "type": "string",
+          "description": "Seller"
+        },
+        "price": {
+          "type": "number",
+          "description": "Price paid"
+        },
+        "quantity": {
+          "type": "number",
+          "description": "Quantity in grams"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional purchase URL"
+        },
+        "ref": {
+          "type": "string",
+          "description": "Optional order reference number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventRoast": {
+      "description": "Roast event",
+      "type": "object",
+      "required": [
+        "date",
+        "kind",
+        "source"
+      ],
+      "properties": {
+        "date": {
+          "default": "2026-12-31",
+          "type": "string",
+          "format": "date",
+          "description": "Date of roast"
+        },
+        "kind": {
+          "const": "roast",
+          "description": "Event type = roast"
+        },
+        "source": {
+          "type": "string",
+          "description": "Roastery source"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about the roast"
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventOpen": {
+      "description": "Open event",
+      "type": "object",
+      "required": [
+        "date",
+        "kind"
+      ],
+      "properties": {
+        "date": {
+          "default": "2026-12-31",
+          "type": "string",
+          "format": "date",
+          "description": "Date when the bag was opened"
+        },
+        "kind": {
+          "const": "open",
+          "description": "Event type = open"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes on opening"
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventEnd": {
+      "description": "End event",
+      "type": "object",
+      "required": [
+        "date",
+        "kind",
+        "notes"
+      ],
+      "properties": {
+        "date": {
+          "default": "2026-12-31",
+          "type": "string",
+          "format": "date",
+          "description": "Date of ending consumption"
+        },
+        "kind": {
+          "const": "end",
+          "description": "Event type = end"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Notes on why the coffee ended (taste, leftover, etc.)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventCup": {
+      "description": "Cup tasting event",
+      "type": "object",
+      "required": [
+        "date",
+        "kind",
+        "settings",
+        "notes"
+      ],
+      "properties": {
+        "date": {
+          "default": "2026-12-31",
+          "type": "string",
+          "format": "date",
+          "description": "Date of tasting"
+        },
+        "kind": {
+          "const": "cup",
+          "description": "Event type = cup tasting"
+        },
+        "settings": {
+          "type": "object",
+          "required": [
+            "expresso"
+          ],
+          "description": "Settings used during tasting",
+          "properties": {
+            "expresso": {
+              "type": "object",
+              "properties": {
+                "51mm": {
+                  "$ref": "#/$defs/basketProfiles",
+                  "description": "Basket settings used"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "notes": {
+          "type": "string",
+          "description": "Tasting notes"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
