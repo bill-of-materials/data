@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://billofmaterials.art/schemas/v1/games/romlibrary.json",
+  "title": "billofmaterials - Games ROM Library",
+  "description": "Schema for B.O.M. Games ROM Libraries: where the ROMs come from and go, and the default options of its romsets",
+  "type": "object",
+  "required": [
+    "apiVersion",
+    "kind",
+    "datpack",
+    "sourceRoot",
+    "outputRoot",
+    "retroarchPlaylistPath",
+    "defaults"
+  ],
+  "properties": {
+    "apiVersion": {
+      "type": "string",
+      "const": "billofmaterials.art/v1",
+      "description": "API version identifier"
+    },
+    "kind": {
+      "type": "string",
+      "const": "games/romlibrary",
+      "description": "Resource kind"
+    },
+    "description": {
+      "type": "string",
+      "description": "Free text about the library"
+    },
+    "datpack": {
+      "type": "string",
+      "description": "Glob of the DAT pack zip; the newest match by the (YYYY-MM-DD) in its name wins"
+    },
+    "sourceRoot": {
+      "type": "string",
+      "description": "Absolute folder holding the seeded fullsets"
+    },
+    "outputRoot": {
+      "type": "string",
+      "description": "Absolute folder where the library is built"
+    },
+    "retroarchPlaylistPath": {
+      "type": "string",
+      "description": "Absolute folder where the RetroArch playlists are written"
+    },
+    "defaults": {
+      "description": "Default options of every romset of the library",
+      "allOf": [
+        {
+          "$ref": "#/$defs/options"
+        }
+      ],
+      "unevaluatedProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "region": {
+      "enum": [
+        "ARG",
+        "ASI",
+        "AUS",
+        "BEL",
+        "BRA",
+        "CAN",
+        "CHN",
+        "DAN",
+        "EUR",
+        "FRA",
+        "FYN",
+        "GER",
+        "GRE",
+        "HK",
+        "HOL",
+        "ITA",
+        "JPN",
+        "KOR",
+        "MEX",
+        "NOR",
+        "NZ",
+        "POR",
+        "RUS",
+        "SPA",
+        "SWE",
+        "TAI",
+        "UK",
+        "UNK",
+        "USA",
+        "WORLD"
+      ],
+      "description": "Region code (igir 5.8.1)"
+    },
+    "language": {
+      "enum": [
+        "DA",
+        "DE",
+        "EL",
+        "EN",
+        "ES",
+        "FI",
+        "FR",
+        "IT",
+        "JA",
+        "KO",
+        "NL",
+        "NO",
+        "PT",
+        "RU",
+        "SV",
+        "ZH"
+      ],
+      "description": "Language code (igir 5.8.1)"
+    },
+    "options": {
+      "type": "object",
+      "description": "Options shared by the library defaults, a romset and a DAT; a more specific level overrides a broader one, lists replace",
+      "properties": {
+        "mode": {
+          "enum": [
+            "hardlink",
+            "symlink",
+            "copy"
+          ],
+          "description": "How files reach the library: hardlink or symlink (igir link) or copy"
+        },
+        "preferRegion": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/region"
+          },
+          "description": "Regions in order of preference when keeping a single release per game"
+        },
+        "preferLanguage": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/language"
+          },
+          "description": "Languages in order of preference when keeping a single release per game"
+        },
+        "filterLanguage": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/language"
+          },
+          "description": "Only keep releases in one of these languages"
+        },
+        "onlyRetail": {
+          "type": "boolean",
+          "description": "Keep only retail releases (no demo, beta, prototype, aftermarket...)"
+        },
+        "bios": {
+          "type": "boolean",
+          "description": "Keep BIOS files; false drops them"
+        },
+        "enabled": {
+          "type": "boolean",
+          "description": "False freezes it: never synced, never pruned"
+        },
+        "igirArgs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Extra igir arguments, appended as-is"
+        }
+      }
+    }
+  }
+}
