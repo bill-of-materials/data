@@ -27,6 +27,10 @@
       "const": "games/romset",
       "description": "Resource kind"
     },
+    "description": {
+      "type": "string",
+      "description": "Free text about the romset"
+    },
     "library": {
       "type": "string",
       "description": "Name of the games/romlibrary this romset belongs to"

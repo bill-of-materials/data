@@ -1,4 +1,4 @@
----
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romlibrary.json
 apiVersion: billofmaterials.art/v1
 kind: games/romlibrary
 description: RetroArch library of thecore, built from the seeded fullsets
@@ -14,4 +14,3 @@ defaults:
   onlyRetail: true
   bios: true
   enabled: true
-# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romlibrary.json
