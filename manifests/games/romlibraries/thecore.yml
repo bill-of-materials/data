@@ -2,7 +2,11 @@
 apiVersion: billofmaterials.art/v1
 kind: games/romlibrary
 description: RetroArch library of thecore, built from the seeded fullsets
-datpack: /media/core/games/roms.incoming/No-Intro*.zip
+datpack:
+  # parent/clone DATs first (No-Intro's grouping of regional versions, for --single),
+  # then the standard pack for the DATs it lacks (Aftermarket)
+  - /media/core/games/roms.incoming/No-Intro Love Pack (PC) (*).zip
+  - /media/core/games/roms.incoming/No-Intro Love Pack (DAT) (*).zip
 sourceRoot: /media/core/games/roms.incoming/No-Intro
 outputRoot: /media/core/games/roms.lib
 retroarchPlaylistPath: /media/core/games/roms.lib/_playlists/

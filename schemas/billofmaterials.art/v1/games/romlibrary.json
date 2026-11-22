@@ -29,8 +29,23 @@
       "description": "Free text about the library"
     },
     "datpack": {
-      "type": "string",
-      "description": "Glob of the DAT pack zip; the newest match by the (YYYY-MM-DD) in its name wins"
+      "description": "Glob of the DAT pack zip, or globs of several packs; the newest match of each glob by the (YYYY-MM-DD) in its name wins, and a DAT is read from the first pack that holds it",
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Glob of the DAT pack zip"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "description": "Glob of a DAT pack zip"
+          },
+          "description": "Globs of the DAT pack zips, in order of preference (a parent/clone pack first)"
+        }
+      ]
     },
     "sourceRoot": {
       "type": "string",
