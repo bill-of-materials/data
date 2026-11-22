@@ -15,6 +15,6 @@ defaults:
   preferRegion: [FRA, EUR, WORLD, USA]
   preferLanguage: [FR, EN]
   filterLanguage: [EN, FR]
-  onlyRetail: true
+  onlyRetail: false
   bios: true
   enabled: true

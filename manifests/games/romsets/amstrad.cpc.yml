@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Amstrad - CPC
+enabled: false
+dats:
+  - name: Amstrad - CPC (Flux)
+    enabled: false
+  - name: Amstrad - CPC (Flux) (Aftermarket)
+    enabled: false
+  - name: Amstrad - CPC (Misc)
+    enabled: false
+  - name: Amstrad - CPC (Misc) (Aftermarket)
+    enabled: false

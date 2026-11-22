@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Game Boy Color
+dats:
+  - name: Nintendo - Game Boy Color
+  - name: Nintendo - Game Boy Color (Aftermarket)
+  - name: Nintendo - Game Boy Color (Private)
+    enabled: false

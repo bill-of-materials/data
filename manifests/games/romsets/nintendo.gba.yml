@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Game Boy Advance
+dats:
+  - name: Nintendo - Game Boy Advance
+  - name: Nintendo - Game Boy Advance (Aftermarket)
+  - name: Nintendo - Game Boy Advance (Multiboot)
+  - name: Nintendo - Game Boy Advance (Play-Yan)
+  - name: Nintendo - Game Boy Advance (Private)
+    enabled: false
+  - name: Nintendo - Game Boy Advance (Video)
+  - name: Nintendo - Game Boy Advance (Video) (Aftermarket)

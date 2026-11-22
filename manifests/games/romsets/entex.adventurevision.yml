@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Entex - Adventure Vision
+dats:
+  - name: Entex - Adventure Vision

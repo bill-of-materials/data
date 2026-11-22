@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Atari - Jaguar
+dats:
+  - name: Atari - Atari Jaguar (ABS)
+    enabled: false
+  - name: Atari - Atari Jaguar (ABS) (Aftermarket)
+    sources:
+      - Atari - Jaguar (ABS) (Aftermarket)
+    enabled: false
+  - name: Atari - Atari Jaguar (COF)
+    enabled: false
+  - name: Atari - Atari Jaguar (COF) (Aftermarket)
+    sources:
+      - Atari - Jaguar (COF) (Aftermarket)
+    enabled: false
+  - name: Atari - Atari Jaguar (J64)
+    sources:
+      - Atari - Jaguar (J64)
+  - name: Atari - Atari Jaguar (J64) (Aftermarket)
+    sources:
+      - Atari - Jaguar (J64) (Aftermarket)
+  - name: Atari - Atari Jaguar (JAG)
+    enabled: false
+  - name: Atari - Atari Jaguar (JAG) (Aftermarket)
+    sources:
+      - Atari - Jaguar (JAG) (Aftermarket)
+    enabled: false
+  - name: Atari - Atari Jaguar (ROM)
+    sources:
+      - Atari - Jaguar (ROM)
+    enabled: false
+  - name: Atari - Atari Jaguar (ROM) (Aftermarket)
+    sources:
+      - Atari - Jaguar (ROM) (Aftermarket)
+    enabled: false

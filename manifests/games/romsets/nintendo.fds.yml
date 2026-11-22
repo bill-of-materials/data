@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Family Computer Disk System
+dats:
+  - name: Nintendo - Family Computer Disk System (FDS)
+  - name: Nintendo - Family Computer Disk System (FDS) (Aftermarket)
+    enabled: false
+  - name: Nintendo - Family Computer Disk System (QD)
+    enabled: false
+  - name: Nintendo - Family Computer Disk System (QD) (Aftermarket)
+    enabled: false

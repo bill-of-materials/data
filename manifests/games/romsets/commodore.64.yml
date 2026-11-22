@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Commodore - 64
+dats:
+  - name: Commodore - Commodore 64
+  - name: Commodore - Commodore 64 (Aftermarket)
+  - name: Commodore - Commodore 64 (Headerless)
+    enabled: false
+  - name: Commodore - Commodore 64 (Headerless) (Aftermarket)
+    enabled: false
+  - name: Commodore - Commodore 64 (PP)
+  - name: Commodore - Commodore 64 (Tapes)
+  - name: Commodore - Commodore 64 (Tapes) (Aftermarket)
+    enabled: false

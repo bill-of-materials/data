@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Nintendo 64
+dats:
+  - name: Nintendo - Nintendo 64 (BigEndian)
+  - name: Nintendo - Nintendo 64 (BigEndian) (Aftermarket)
+  - name: Nintendo - Nintendo 64 (BigEndian) (Private)
+    enabled: false
+  - name: Nintendo - Nintendo 64 (ByteSwapped)
+    enabled: false
+  - name: Nintendo - Nintendo 64 (ByteSwapped) (Aftermarket)
+    enabled: false

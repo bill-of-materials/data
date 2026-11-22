@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Fairchild - Channel F
+dats:
+  - name: Fairchild - Channel F
+    sources:
+      - Fairchild - Channel F [No-Intro] [2012-02-23]

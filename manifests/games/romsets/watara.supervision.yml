@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Watara - Supervision
+dats:
+  - name: Watara - Supervision
+  - name: Watara - Supervision (Aftermarket)
+    enabled: false

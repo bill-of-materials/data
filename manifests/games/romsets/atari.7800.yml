@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Atari - 7800
+dats:
+  - name: Atari - 7800 (BIN) (Private)
+    enabled: false
+  - name: Atari - Atari 7800 (A78)
+    enabled: false
+  - name: Atari - Atari 7800 (A78) (Aftermarket)
+    sources:
+      - Atari - 7800 (A78) (Aftermarket)
+  - name: Atari - Atari 7800 (BIN)
+    sources:
+      - Atari - 7800 (BIN)
+    enabled: false
+  - name: Atari - Atari 7800 (BIN) (Aftermarket)
+    sources:
+      - Atari - 7800 (BIN) (Aftermarket)
+    enabled: false

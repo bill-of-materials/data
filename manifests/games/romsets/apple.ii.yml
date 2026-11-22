@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Apple - II
+enabled: false
+dats:
+  - name: Apple - II (A2R)
+    enabled: false
+  - name: Apple - II (WOZ)
+    enabled: false
+  - name: Apple - II (Waveform)
+    enabled: false

@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Sega - SG-1000
+dats:
+  - name: Sega - SG-1000 - SC-3000
+    sources:
+      - Sega - SG-1000
+  - name: Sega - SG-1000 - SC-3000 (Aftermarket)
+    sources:
+      - Sega - SG-1000 (Aftermarket)

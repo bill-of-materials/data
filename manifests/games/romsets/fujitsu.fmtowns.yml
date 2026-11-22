@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Fujitsu - FM Towns
+enabled: false
+dats:
+  - name: Fujitsu - FM Towns (Flux)
+    enabled: false
+  - name: Fujitsu - FM Towns (HDM)
+    enabled: false

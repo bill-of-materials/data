@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Atari - Lynx
+dats:
+  - name: Atari - Atari Lynx (BLL)
+    sources:
+      - Atari - Lynx (BLL)
+    enabled: false
+  - name: Atari - Atari Lynx (BLL) (Aftermarket)
+    sources:
+      - Atari - Lynx (BLL) (Aftermarket)
+    enabled: false
+  - name: Atari - Atari Lynx (LNX)
+    sources:
+      - Atari - Lynx (LNX)
+  - name: Atari - Atari Lynx (LNX) (Aftermarket)
+    sources:
+      - Atari - Lynx (LNX) (Aftermarket)
+  - name: Atari - Atari Lynx (LYX)
+    sources:
+      - Atari - Lynx (LYX)
+    enabled: false
+  - name: Atari - Atari Lynx (LYX) (Aftermarket)
+    sources:
+      - Atari - Lynx (LYX) (Aftermarket)
+    enabled: false
+  - name: Atari - Lynx (LNX) (Private)
+    enabled: false
+  - name: Atari - Lynx (LYX) (Private)
+    enabled: false

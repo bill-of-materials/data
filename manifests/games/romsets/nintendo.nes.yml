@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Nintendo Entertainment System
+dats:
+  - name: Nintendo - Nintendo Entertainment System (Headered)
+  - name: Nintendo - Nintendo Entertainment System (Headered) (Aftermarket)
+  - name: Nintendo - Nintendo Entertainment System (Headered) (Private)
+    enabled: false
+  - name: Nintendo - Nintendo Entertainment System (Headerless)
+    enabled: false
+  - name: Nintendo - Nintendo Entertainment System (Headerless) (Aftermarket)
+    enabled: false

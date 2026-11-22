@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Microsoft - MSX
+dats:
+  - name: Microsoft - MSX
+  - name: Microsoft - MSX (Aftermarket)

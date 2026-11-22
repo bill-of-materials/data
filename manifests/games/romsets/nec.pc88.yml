@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: NEC - PC-88
+enabled: false
+dats:
+  - name: NEC - PC-88 (Flux)
+    enabled: false
+  - name: NEC - PC-88 (KryoFlux)
+    enabled: false

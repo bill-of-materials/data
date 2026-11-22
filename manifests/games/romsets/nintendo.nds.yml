@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Nintendo DS
+dats:
+  - name: Nintendo - Nintendo DS (Decrypted)
+  - name: Nintendo - Nintendo DS (Decrypted) (Aftermarket)
+  - name: Nintendo - Nintendo DS (Download Play)
+  - name: Nintendo - Nintendo DS (Encrypted)
+    enabled: false
+  - name: Nintendo - Nintendo DS (Encrypted) (Aftermarket)
+    enabled: false
+  - name: Nintendo - Nintendo DS (M4A)
+    enabled: false
+  - name: Nintendo - Nintendo DS (M4A) (Aftermarket)
+    enabled: false

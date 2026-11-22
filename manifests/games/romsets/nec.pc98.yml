@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: NEC - PC-98
+enabled: false
+dats:
+  - name: NEC - PC-98
+    enabled: false
+  - name: NEC - PC-98 (Flux)
+    enabled: false
+  - name: NEC - PC-98 (Greaseweazle)
+    enabled: false
+  - name: NEC - PC-98 (HardDisk)
+    enabled: false
+  - name: NEC - PC-98 (Uncategorized)
+    enabled: false

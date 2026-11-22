@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../../../schemas/billofmaterials.art/v1/games/romset.json
+apiVersion: billofmaterials.art/v1
+kind: games/romset
+library: thecore
+libretroName: Nintendo - Pokemon Mini
+dats:
+  - name: Nintendo - Pokemon Mini
+  - name: Nintendo - Pokemon Mini (Aftermarket)
+    enabled: false
