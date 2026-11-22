@@ -3,7 +3,7 @@ apiVersion: billofmaterials.art/v1
 kind: games/romset
 library: thecore
 libretroName: Sony - PlayStation Portable (PSN)
-description: still downloading, enable once the torrent is complete
+description: removed for lack of storage, enable once the torrent is back
 enabled: false
 dats:
   - name: Sony - PlayStation Portable (PSN) (Decrypted)

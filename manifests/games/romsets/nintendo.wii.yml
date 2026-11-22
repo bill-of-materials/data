@@ -3,8 +3,7 @@ apiVersion: billofmaterials.art/v1
 kind: games/romset
 library: thecore
 libretroName: Nintendo - Wii
-description: still downloading, enable once the torrent is complete
-enabled: false
+enabled: true
 dats:
   - name: Nintendo - Wii (Digital) (CDN)
   - name: Nintendo - Wii (Starlight Fun Center)
